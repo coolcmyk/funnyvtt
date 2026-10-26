@@ -1,6 +1,6 @@
 # FunnyVTT - Foundry VTT with Cyberpunk RED on Linux
 
-## Quick Start
+## Quick Start (Native)
 
 ```bash
 # Start server
@@ -9,7 +9,19 @@ cd ~/.wine/drive_c/Program\ Files/Foundry\ Virtual\ Tabletop/resources/app && no
 # Access at http://localhost:30000
 ```
 
-## Installation Steps
+## Quick Start (Docker - Portable)
+
+```bash
+# Build image (requires Foundry license download URL)
+docker build --build-arg FOUNDRY_URL="https://your-foundry-download-url" -t funnyvtt .
+
+# Run container
+docker run -d -p 30000:30000 funnyvtt
+
+# Access at http://localhost:30000
+```
+
+## Installation Steps (Native)
 
 ### 1. Install Wine
 ```bash
@@ -37,31 +49,9 @@ cd fvtt-cyberpunk-red-core && npm ci && npm run build
 # Install to Foundry data
 cp -r dist ~/.local/share/FoundryVTT/Data/systems/cyberpunk-red-core
 
-# Fix system.json for v12 compatibility
-cat > ~/.local/share/FoundryVTT/Data/systems/cyberpunk-red-core/system.json << 'SYSTEM_JSON'
-{
-  "version": "0.0.1",
-  "id": "cyberpunk-red-core",
-  "title": "Cyberpunk RED - CORE",
-  "description": "Implementation of the Cyberpunk RED, Core Rules, for FVTT",
-  "compatibility": { "minimum": 12, "verified": 12, "maximum": 12 },
-  "authors": [{ "name": "The Project Red Team", "url": "https://gitlab.com/cyberpunk-red-team/fvtt-cyberpunk-red-core" }],
-  "scripts": [],
-  "esmodules": ["cpr.js"],
-  "styles": ["css/main.css"],
-  "packFolders": [
-    { "name": "Cyberpunk RED: Core", "sorting": "m", "packs": ["core_ammo","core_armor","core_clothing","core_critical-injuries-body","core_critical-injuries-head","core_cyberware","core_drugs","core_gear","core_programs","core_roles","core_skills-languages","core_skills-local-expert","core_skills-martial-arts","core_skills-play-instrument","core_skills-science","core_upgrades","core_vehicles","core_weapons"] },
-    { "name": "Cyberpunk RED: Other", "sorting": "m", "packs": ["other_macros","other_scenes","other_changelog"] }
-  ],
-  "languages": [{ "lang": "en", "name": "English", "path": "lang/en.json" }],
-  "initiative": "1d10 + @stats.ref.value",
-  "grid": { "distance": 2, "units": "m" },
-  "primaryTokenAttribute": "derivedStats.hp",
-  "secondaryTokenAttribute": null,
-  "background": "systems/cyberpunk-red-core/images/Foundry-Background.webp",
-  "license": "GPL v3"
-}
-SYSTEM_JSON
+# Fix system.json for v12 compatibility (already done in this repo)
+# System is pre-built in ./systems/cyberpunk-red-core/
+cp -r systems/cyberpunk-red-core ~/.local/share/FoundryVTT/Data/systems/
 ```
 
 ### 5. Restart Server
@@ -73,20 +63,52 @@ cd ~/.wine/drive_c/Program\ Files/Foundry\ Virtual\ Tabletop/resources/app && no
 ### 6. Setup
 Open `http://localhost:30000` → complete setup → create admin password → create world with **"Cyberpunk RED - CORE"** system.
 
-## File Locations
+## Scripts
+
+```bash
+# Install everything (native)
+./scripts/install.sh
+
+# Start server
+./scripts/start.sh
+
+# Stop server
+./scripts/stop.sh
+
+# View logs
+./scripts/logs.sh
+```
+
+## Project Structure
+
+```
+funnyvtt/
+├── README.md
+├── .gitignore
+├── Dockerfile                 # Portable container build
+├── scripts/
+│   ├── install.sh            # Full automated installer (native)
+│   ├── start.sh              # Start server
+│   ├── stop.sh               # Stop server
+│   └── logs.sh               # View logs
+├── config/
+│   └── options.json.example  # Example Foundry config
+└── systems/
+    └── cyberpunk-red-core/   # Pre-built Cyberpunk RED system
+```
+
+## File Locations (Native)
+
 - **Foundry Install:** `~/.wine/drive_c/Program Files/Foundry Virtual Tabletop/`
 - **User Data:** `~/.local/share/FoundryVTT/`
 - **Systems:** `~/.local/share/FoundryVTT/Data/systems/`
 - **Config:** `~/.local/share/FoundryVTT/Config/options.json`
 
-## Commands
-```bash
-# Start
-cd ~/.wine/drive_c/Program\ Files/Foundry\ Virtual\ Tabletop/resources/app && nohup node main.js > foundry.log 2>&1 &
+## Why Not Push ~/.wine?
 
-# Stop
-pkill -f "node main.js"
+- **~200MB+** of binaries (Electron, DLLs, `.pak` files)
+- **Machine-specific** - Wine registry, paths, symlinks tied to your hardware/OS
+- **GitHub limits** - 100MB/file, 2GB repo max
+- **Won't run on another machine** - Wine prefixes aren't portable
 
-# Logs
-tail -f ~/.wine/drive_c/Program\ Files/Foundry\ Virtual\ Tabletop/resources/app/foundry.log
-```
+**Use Docker** for portable, reproducible deployments.
