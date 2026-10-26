@@ -1,0 +1,80 @@
+{{!--
+  Shared item "header body": the icon + breadcrumb/sources + name, a divider, then
+  a chips + price row. Rendered from a precomputed, document-free view-model so
+  BOTH the item sheet header (.item-top-pane) and the document browser result
+  rows (.cpr-browser-entry-open) draw an identical header.
+
+  View-model fields:
+    img, editImg, statusUpgraded, statusInstalled,
+    name, debugId,
+    breadcrumb: [{label, opacity}], wikiType,
+    hasPrice, priceLabel, priceCategoryLabel,
+    chips: [string], source, sourceTooltip
+--}}
+<div class="item-header-body">
+
+  <div class="item-header-top">
+    <div class="item-image item-image-block">
+      <img class="item-image-block-img" src="{{img}}" alt="{{name}}"
+        {{#if editImg}}data-action="editImage" data-edit="img"{{/if}} />
+      {{#if statusUpgraded}}
+        <i class="fa-solid fa-square-caret-up fa-xs"
+          data-tooltip="{{localize "CPR.global.generic.upgraded"}}"></i>
+      {{/if}}
+      {{#if statusInstalled}}
+        <i class="fa-solid fa-circle-info fa-xs"
+          data-tooltip="{{localize "CPR.global.generic.installed"}}"></i>
+      {{/if}}
+    </div>
+
+    <div class="item-header-top-details">
+      <div class="item-header-row item-header-row-top">
+        <div class="item-header-breadcrumb">
+          {{#each breadcrumb}}
+            {{#unless @first}}<span class="item-header-breadcrumb-sep">/</span>{{/unless}}
+            {{#if @first}}
+              {{#if ../wikiType}}
+                <a class="item-header-breadcrumb-segment item-header-type-link"
+                  href="{{cprWikiLink ../wikiType}}"
+                  data-tooltip="{{localize "CPR.global.generic.helparticle"}}"
+                  style="opacity:{{this.opacity}}">{{this.label}}</a>
+              {{else}}
+                <span class="item-header-breadcrumb-segment"
+                  style="opacity:{{this.opacity}}">{{this.label}}</span>
+              {{/if}}
+            {{else}}
+              <span class="item-header-breadcrumb-segment"
+                style="opacity:{{this.opacity}}">{{this.label}}</span>
+            {{/if}}
+          {{/each}}
+        </div>
+        <div class="item-header-sources"{{#if sourceTooltip}} data-tooltip-html="{{sourceTooltip}}"{{/if}}>{{source}}</div>
+      </div>
+
+      <div class="item-header-name text-large text-hero">
+        <span class="item-header-name-text">{{name}}</span>
+        {{#if debugId}}
+          <span class="item-header-debug text-small">({{debugId}})</span>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+
+  <div class="item-header-divider"></div>
+
+  <div class="item-header-row item-header-row-bottom">
+    <div class="item-header-chips">
+      {{#each chips}}
+        <span class="cpr-browser-chip">{{this}}</span>
+      {{/each}}
+    </div>
+    {{#if hasPrice}}
+      <div class="item-header-price">
+        <span class="item-header-price-value">{{priceLabel}}</span>
+        {{#if priceCategoryLabel}}
+          <span class="item-header-price-category">({{localize priceCategoryLabel}})</span>
+        {{/if}}
+      </div>
+    {{/if}}
+  </div>
+</div>

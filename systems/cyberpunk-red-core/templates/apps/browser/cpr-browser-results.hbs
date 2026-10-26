@@ -1,0 +1,12 @@
+<div class="cpr-browser-results">
+  <ol class="cpr-browser-results-list"></ol>
+  {{#if (cprCompare resultTotal "===" 0)}}
+  <p class="cpr-browser-empty">{{localize "CPR.browser.noResults"}}</p>
+  {{/if}}
+  <footer class="cpr-browser-results-footer {{#if loading}}cpr-browser-loading{{/if}}">
+    <i class="fa-solid fa-spinner fa-spin cpr-browser-spinner"></i>
+    <span class="cpr-browser-result-count">
+      {{localize "CPR.browser.showingCount" shown=shown total=resultTotal}}
+    </span>
+  </footer>
+</div>

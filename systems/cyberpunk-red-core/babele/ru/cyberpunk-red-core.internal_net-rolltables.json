@@ -1,0 +1,111 @@
+{
+  "label": "NET architecture Rolltables",
+  "mapping": {},
+  "entries": {
+    "All Other Floors (Advanced)": {
+      "name": "All Other Floors (Advanced)",
+      "results": [
+        {
+          "3-3": "Hellhound x3",
+          "4-4": "Аспид x2",
+          "5-5": "Hellhound, Liche",
+          "6-6": "Wisp x3",
+          "7-7": "Адская гончая, Саблезуб",
+          "8-8": "Kraken",
+          "9-9": "Password DV12",
+          "10-10": "File DV12",
+          "11-11": "Control Node DV12",
+          "12-12": "Password DV12",
+          "13-13": "Giant",
+          "14-14": "Dragon",
+          "15-15": "Killer, Scorpion",
+          "16-16": "Kraken",
+          "17-17": "Raven, Wisp, Hellhound",
+          "18-18": "Дракон x2"
+        }
+      ]
+    },
+    "All Other Floors (Basic)": {
+      "name": "All Other Floors (Basic)",
+      "results": [
+        {
+          "3-3": "Адская гончая",
+          "4-4": "Sabertooth",
+          "5-5": "Raven x2",
+          "6-6": "Адская гончая",
+          "7-7": "Wisp",
+          "8-8": "Raven",
+          "9-9": "Password DV6",
+          "10-10": "File DV6",
+          "11-11": "Control Node DV6",
+          "12-12": "Password DV6",
+          "13-13": "Skunk",
+          "14-14": "Аспид",
+          "15-15": "Scorpion",
+          "16-16": "Killer, Skunk",
+          "17-17": "Wisp x3",
+          "18-18": "Liche"
+        }
+      ]
+    },
+    "All Other Floors (Standard)": {
+      "name": "All Other Floors (Standard)",
+      "results": [
+        {
+          "3-3": "Hellhound x2",
+          "4-4": "Hellhound, Killer",
+          "5-5": "Skunk x2",
+          "6-6": "Sabertooth",
+          "7-7": "Scorpion",
+          "8-8": "Адская гончая",
+          "9-9": "Password DV8",
+          "10-10": "File DV8",
+          "11-11": "Control Node DV8",
+          "12-12": "Password DV8",
+          "13-13": "Аспид",
+          "14-14": "Killer",
+          "15-15": "Liche",
+          "16-16": "Аспид",
+          "17-17": "Raven x3",
+          "18-18": "Liche, Raven"
+        }
+      ]
+    },
+    "All Other Floors (Uncommon)": {
+      "name": "All Other Floors (Uncommon)",
+      "results": [
+        {
+          "3-3": "Kraken",
+          "4-4": "Hellhound, Scorpion",
+          "5-5": "Адская гончая, Убийца",
+          "6-6": "Raven x2",
+          "7-7": "Sabertooth",
+          "9-9": "Пароль СЛ10",
+          "10-10": "Файл СЛ10",
+          "11-11": "Узел управления СЛ10",
+          "12-12": "Пароль СЛ10",
+          "13-13": "Killer",
+          "14-14": "Liche",
+          "15-15": "Дракон",
+          "16-16": "Asp, Raven",
+          "17-17": "Дракон, Дух",
+          "18-18": "Giant",
+          "8-8": "Адская гончая"
+        }
+      ]
+    },
+    "First Two Floors (The Lobby)": {
+      "name": "First Two Floors (The Lobby)",
+      "results": [
+        {
+          "1-1": "Файл СЛ6",
+          "2-2": "Пароль СЛ6",
+          "3-3": "Пароль СЛ8",
+          "4-4": "Скунс",
+          "5-5": "Дух",
+          "6-6": "Убийца"
+        }
+      ]
+    }
+  }
+}

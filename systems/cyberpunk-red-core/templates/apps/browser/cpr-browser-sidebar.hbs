@@ -1,0 +1,160 @@
+<div class="cpr-browser-sidebar">
+  {{#if isItemContext}}
+  <fieldset class="cpr-browser-filter cpr-browser-sidebar-price">
+    <legend>{{localize "CPR.browser.price.label"}}</legend>
+    <div class="cpr-browser-field-row">
+      <input type="number" id="cpr-browser-price-min" class="cpr-browser-price-min"
+        min="0" value="{{priceMin}}"
+        aria-label="{{localize 'CPR.browser.price.label'}} {{localize 'CPR.browser.price.min'}}"
+        placeholder="{{localize 'CPR.browser.price.min'}}" />
+      <input type="number" class="cpr-browser-price-max" min="0" value="{{priceMax}}"
+        aria-label="{{localize 'CPR.browser.price.label'}} {{localize 'CPR.browser.price.max'}}"
+        placeholder="{{localize 'CPR.browser.price.max'}}" />
+    </div>
+  </fieldset>
+  {{/if}}
+
+  <div class="cpr-browser-sidebar-scroll">
+    {{#each typeBoxes}}
+    <fieldset
+      class="cpr-browser-filter cpr-browser-typebox cpr-browser-collapsible {{#unless expanded}}cpr-browser-collapsed{{/unless}}"
+      data-type="{{type}}">
+      <legend class="cpr-browser-typebox-head">
+        <span class="cpr-browser-tristate cpr-browser-tristate-{{state}}" role="button"
+          data-tree="type" data-type="{{type}}" data-state="{{state}}"></span>
+        {{#if hasBody}}
+        <span class="cpr-browser-collapse-toggle cpr-browser-typebox-toggle"
+          data-collapse="box:{{type}}">
+          <span class="cpr-browser-tree-type-label">{{localize label}}</span>
+          <i class="fa-solid fa-chevron-up fa-sm {{#unless expanded}}fa-flip-vertical{{/unless}}"></i>
+        </span>
+        {{else}}
+        <span class="cpr-browser-tree-type-label">{{localize label}}</span>
+        {{/if}}
+      </legend>
+      {{#if hasBody}}
+      <div class="cpr-browser-collapse-body">
+        {{#each filters}}
+        {{#if isSet}}
+        <div class="cpr-browser-filter-sub">
+          <div class="cpr-browser-filter-sublabel">{{localize label}}</div>
+          <div class="cpr-browser-filter-options">
+            {{#each options}}
+            <div class="cpr-browser-tristate-row">
+              <span class="cpr-browser-tristate cpr-browser-tristate-{{state}}" role="button"
+                data-set="1" data-type="{{../../type}}" data-filter="{{../id}}"
+                data-value="{{value}}" data-state="{{state}}"></span>
+              <span class="cpr-browser-tristate-label">{{localize label}}</span>
+            </div>
+            {{/each}}
+          </div>
+        </div>
+        {{else if isRange}}
+        <div class="cpr-browser-filter-sub cpr-browser-range-row">
+          <label>{{localize label}}</label>
+          <div class="cpr-browser-field-row">
+            <input type="number" class="cpr-browser-range-min" data-type="{{../type}}"
+              data-filter="{{id}}" value="{{min}}"
+              aria-label="{{localize label}} {{localize 'CPR.browser.price.min'}}"
+              placeholder="{{localize 'CPR.browser.price.min'}}" />
+            <input type="number" class="cpr-browser-range-max" data-type="{{../type}}"
+              data-filter="{{id}}" value="{{max}}"
+              aria-label="{{localize label}} {{localize 'CPR.browser.price.max'}}"
+              placeholder="{{localize 'CPR.browser.price.max'}}" />
+          </div>
+        </div>
+        {{else if isBoolean}}
+        <div class="cpr-browser-filter-sub">
+          <div class="cpr-browser-tristate-row">
+            <span class="cpr-browser-tristate cpr-browser-tristate-{{state}}" role="button"
+              data-bool="1" data-type="{{../type}}" data-filter="{{id}}"
+              data-state="{{state}}"></span>
+            <span class="cpr-browser-tristate-label">{{localize label}}</span>
+          </div>
+        </div>
+        {{else if isToggle}}
+        <div class="cpr-browser-filter-sub cpr-browser-toggle-row">
+          <div class="cpr-browser-tristate-row">
+            <span class="cpr-browser-tristate cpr-browser-tristate-{{state}}" role="button"
+              data-toggle="1" data-type="{{../type}}" data-filter="{{id}}"
+              data-state="{{state}}"></span>
+            <span class="cpr-browser-tristate-label">{{localize label}}</span>
+          </div>
+          <div
+            class="cpr-browser-toggle-nested {{#unless revealNested}}cpr-browser-hidden{{/unless}}">
+            {{#each filters}}
+            {{#if isRange}}
+            <div class="cpr-browser-filter-sub cpr-browser-range-row">
+              <label>{{localize label}}</label>
+              <div class="cpr-browser-field-row">
+                <input type="number" class="cpr-browser-range-min" data-type="{{../../type}}"
+                  data-filter="{{id}}" value="{{min}}"
+                  aria-label="{{localize label}} {{localize 'CPR.browser.price.min'}}"
+                  placeholder="{{localize 'CPR.browser.price.min'}}" />
+                <input type="number" class="cpr-browser-range-max" data-type="{{../../type}}"
+                  data-filter="{{id}}" value="{{max}}"
+                  aria-label="{{localize label}} {{localize 'CPR.browser.price.max'}}"
+                  placeholder="{{localize 'CPR.browser.price.max'}}" />
+              </div>
+            </div>
+            {{else if isBoolean}}
+            <div class="cpr-browser-filter-sub">
+              <div class="cpr-browser-tristate-row">
+                <span class="cpr-browser-tristate cpr-browser-tristate-{{state}}" role="button"
+                  data-bool="1" data-type="{{../../type}}" data-filter="{{id}}"
+                  data-state="{{state}}"></span>
+                <span class="cpr-browser-tristate-label">{{localize label}}</span>
+              </div>
+            </div>
+            {{/if}}
+            {{/each}}
+          </div>
+        </div>
+        {{/if}}
+        {{/each}}
+      </div>
+      {{/if}}
+    </fieldset>
+    {{/each}}
+
+    {{#each filters}}
+    <fieldset
+      class="cpr-browser-filter cpr-browser-filter-tristate cpr-browser-collapsible {{#if collapsed}}cpr-browser-collapsed{{/if}}"
+      data-filter-id="{{id}}">
+      <legend class="cpr-browser-collapse-toggle" data-collapse="{{id}}">
+        <i class="fa-solid fa-chevron-up fa-sm {{#if collapsed}}fa-flip-vertical{{/if}}"></i>
+        {{localize label}}
+      </legend>
+      <div class="cpr-browser-collapse-body">
+        <div class="cpr-browser-filter-options">
+          {{#each options}}
+          <div class="cpr-browser-tristate-row">
+            <span class="cpr-browser-tristate cpr-browser-tristate-{{state}}" role="button"
+              data-value="{{value}}" data-state="{{state}}"></span>
+            <span class="cpr-browser-tristate-label">{{localize label}}</span>
+          </div>
+          {{/each}}
+        </div>
+      </div>
+    </fieldset>
+    {{/each}}
+  </div>
+
+  <div class="cpr-browser-field-row cpr-browser-sidebar-actions">
+    <button type="button" class="cpr-browser-icon-button" data-action="clearFilters"
+      data-tooltip="{{localize 'CPR.browser.clearFilters'}}">
+      <i class="fa-solid fa-filter-circle-xmark"></i>
+    </button>
+    <button type="button" class="cpr-browser-icon-button" data-action="refreshIndex"
+      data-tooltip="{{localize 'CPR.browser.refresh'}}">
+      <i class="fa-solid fa-arrows-rotate"></i>
+    </button>
+    {{#if isGM}}
+    <button type="button" class="cpr-browser-icon-button"
+      data-action="openCompendiaSettings"
+      data-tooltip="{{localize 'CPR.browser.compendiaSettings'}}">
+      <i class="fa-solid fa-gear"></i>
+    </button>
+    {{/if}}
+  </div>
+</div>

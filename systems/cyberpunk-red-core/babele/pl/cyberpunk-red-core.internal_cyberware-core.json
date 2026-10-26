@@ -1,0 +1,23 @@
+{
+  "label": "Cyberware (Core)",
+  "mapping": {
+    "dvTable": "system.dvTable"
+  },
+  "entries": {
+    "External (7 Option Slots)": {
+      "name": "Zewnętrzne (7 gniazd na modyfikacje)",
+      "description": "",
+      "dvTable": ""
+    },
+    "Fashionware (7 Option Slots)": {
+      "name": "Cybermoda (7 gniazd na modyfikacje)",
+      "description": "",
+      "dvTable": ""
+    },
+    "Internal (7 Option Slots)": {
+      "name": "Wewnętrzne (7 gniazd na modyfikacje)",
+      "description": "",
+      "dvTable": ""
+    }
+  }
+}

@@ -1,0 +1,21 @@
+<li class="dialog-item skill-name flexrow">
+  <div class="dialog-item-name text-nowrap">
+    {{localize (cprGetLocalizedlNameKey this.name "skill")}}
+  </div>
+  <div class="dialog-item-detail skill-base text-nowrap">
+    +{{this.stat}}
+  </div>
+  <div class="dialog-item-detail skill-level text-nowrap">
+    <input class="number skill-input"
+           name="{{this.id}}.level"
+           type="number"
+           value="{{this.level}}"/>
+  </div>
+  <div class="dialog-item-detail skill-mod-value text-nowrap">
+    {{!-- we only support mode 2 (add/subtract) for skills --}}
+    {{cprEffectModMode 2 this.mod}}
+  </div>
+  <div class="dialog-item-detail skill-total text-nowrap">
+    {{cprMath "sum" this.stat this.level this.mod}}
+  </div>
+</li>

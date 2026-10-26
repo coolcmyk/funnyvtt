@@ -1,0 +1,18 @@
+{{#if (cprCompare system.dvTable "!==" "") }}
+  <a class="dv-glyph
+            {{#if isTokenSheet}}item-action{{/if}}
+            {{#if (cprHighlightDVRuler weapon)}}button-active{{/if}}
+            {{#unless isTokenSheet}}button-disabled{{/unless}}"
+     data-item-id="{{weapon.id}}"
+     data-action-type="dv-ruler"
+     data-action="measure-dv">
+
+    <i class="fas fa-ruler"
+       data-tooltip="{{#if isTokenSheet}}
+                       {{localize "CPR.actorSheets.commonActions.measureDv"}}
+                     {{else}}
+                       {{localize "CPR.actorSheets.commonActions.measureDvDisabled"}}
+                     {{/if}}">
+    </i>
+  </a>
+{{/if}}

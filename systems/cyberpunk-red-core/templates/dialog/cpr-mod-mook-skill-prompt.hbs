@@ -1,0 +1,36 @@
+<div class="dialog-sheet mook-skill-dialog">
+  <div class="dialog-grid flexcol">
+    <div class="dialog-list">
+      <div class="mook-skills-scrollable">
+        <div class="mook-skills-columns">
+          <div class="mook-skills-column">
+            {{> "systems/cyberpunk-red-core/templates/dialog/cpr-mod-mook-skill-header.hbs"}}
+            {{#each objectLeft as |skills category| }}
+              <div class="mook-skill-category">
+                <div class="mook-skill-category-header">
+                  {{localize (cprFindConfigValue "skillCategories" category)}}
+                </div>
+                {{#each skills as |skill| }}
+                  {{> "systems/cyberpunk-red-core/templates/dialog/cpr-mod-mook-skill-row.hbs" this}}
+                {{/each}}
+              </div>
+            {{/each}}
+          </div>
+          <div class="mook-skills-column">
+            {{> "systems/cyberpunk-red-core/templates/dialog/cpr-mod-mook-skill-header.hbs"}}
+            {{#each objectRight as |skills category| }}
+              <div class="mook-skill-category">
+                <div class="mook-skill-category-header">
+                  {{localize (cprFindConfigValue "skillCategories" category)}}
+                </div>
+                {{#each skills as |skill| }}
+                  {{> "systems/cyberpunk-red-core/templates/dialog/cpr-mod-mook-skill-row.hbs" this}}
+                {{/each}}
+              </div>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

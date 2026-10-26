@@ -1,0 +1,111 @@
+{
+  "label": "NET構造体ロールテーブル",
+  "mapping": {},
+  "entries": {
+    "All Other Floors (Advanced)": {
+      "name": "他のすべての階層(初歩的)",
+      "results": [
+        {
+          "3-3": "Hellhound x3",
+          "4-4": "アスプ x2",
+          "5-5": "Hellhound, Liche",
+          "6-6": "Wisp x3",
+          "7-7": "ヘルハウンド、セイバートゥース",
+          "8-8": "Kraken",
+          "9-9": "Password DV12",
+          "10-10": "File DV12",
+          "11-11": "Control Node DV12",
+          "12-12": "Password DV12",
+          "13-13": "Giant",
+          "14-14": "Dragon",
+          "15-15": "Killer, Scorpion",
+          "16-16": "Kraken",
+          "17-17": "Raven, Wisp, Hellhound",
+          "18-18": "ドラゴンx2"
+        }
+      ]
+    },
+    "All Other Floors (Basic)": {
+      "name": "他のすべての階層(標準的)",
+      "results": [
+        {
+          "3-3": "ヘルハウンド",
+          "4-4": "Sabertooth",
+          "5-5": "Raven x2",
+          "6-6": "ヘルハウンド",
+          "7-7": "Wisp",
+          "8-8": "Raven",
+          "9-9": "Password DV6",
+          "10-10": "File DV6",
+          "11-11": "Control Node DV6",
+          "12-12": "Password DV6",
+          "13-13": "Skunk",
+          "14-14": "アスプ",
+          "15-15": "Scorpion",
+          "16-16": "Killer, Skunk",
+          "17-17": "Wisp x3",
+          "18-18": "Liche"
+        }
+      ]
+    },
+    "All Other Floors (Standard)": {
+      "name": "他のすべての階層(例外的)",
+      "results": [
+        {
+          "3-3": "Hellhound x2",
+          "4-4": "Hellhound, Killer",
+          "5-5": "Skunk x2",
+          "6-6": "Sabertooth",
+          "7-7": "Scorpion",
+          "8-8": "ヘルハウンド",
+          "9-9": "Password DV8",
+          "10-10": "File DV8",
+          "11-11": "Control Node DV8",
+          "12-12": "Password DV8",
+          "13-13": "アスプ",
+          "14-14": "Killer",
+          "15-15": "Liche",
+          "16-16": "アスプ",
+          "17-17": "Raven x3",
+          "18-18": "Liche, Raven"
+        }
+      ]
+    },
+    "All Other Floors (Uncommon)": {
+      "name": "他のすべての階層(先進的)",
+      "results": [
+        {
+          "3-3": "Kraken",
+          "4-4": "Hellhound, Scorpion",
+          "5-5": "ヘルハウンド、キラー",
+          "6-6": "Raven x2",
+          "7-7": "Sabertooth",
+          "9-9": "パスワードDV10",
+          "10-10": "ファイルDV10",
+          "11-11": "コントロールノードDV10",
+          "12-12": "パスワードDV10",
+          "13-13": "Killer",
+          "14-14": "Liche",
+          "15-15": "ドラゴン",
+          "16-16": "Asp, Raven",
+          "17-17": "ドラゴン、ウィスプ",
+          "18-18": "Giant",
+          "8-8": "ヘルハウンド"
+        }
+      ]
+    },
+    "First Two Floors (The Lobby)": {
+      "name": "第1階層と第2階層(ロビー)",
+      "results": [
+        {
+          "1-1": "ファイルDV6",
+          "2-2": "パスワードDV6",
+          "3-3": "パスワードDV8",
+          "4-4": "スカンク",
+          "5-5": "ウィスプ",
+          "6-6": "キラー"
+        }
+      ]
+    }
+  }
+}

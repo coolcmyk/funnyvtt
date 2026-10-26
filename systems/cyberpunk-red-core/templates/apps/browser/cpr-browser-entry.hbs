@@ -1,0 +1,23 @@
+<li
+  class="cpr-browser-entry cpr-browser-entry-{{rowParity}} {{#if groupCollapsed}}cpr-browser-hidden{{/if}}"
+  data-uuid="{{uuid}}" data-doc-class="{{docClass}}" data-group="{{type}}"
+  draggable="{{draggable}}">
+  <div class="cpr-browser-entry-open" data-action="openDocument" role="button"
+    tabindex="0">
+    {{> "systems/cyberpunk-red-core/templates/item/parts/cpr-item-header-body.hbs" this}}
+  </div>
+  <span class="cpr-browser-entry-actions">
+    {{#if hasInstalled}}
+    <a class="cpr-browser-expand" data-action="toggleInstalled" role="button"
+      tabindex="0" data-tooltip="{{localize 'CPR.global.generic.installedItems'}}">
+      <i class="fa-solid fa-chevron-up fa-sm fa-flip-vertical"></i>
+    </a>
+    {{/if}}
+    {{#if canBuy}}
+    <a class="cpr-browser-buy" data-action="addToCart" role="button" tabindex="0"
+      data-tooltip="{{localize 'CPR.browser.cart.add'}}">
+      <i class="fa-solid fa-cart-plus"></i>
+    </a>
+    {{/if}}
+  </span>
+</li>

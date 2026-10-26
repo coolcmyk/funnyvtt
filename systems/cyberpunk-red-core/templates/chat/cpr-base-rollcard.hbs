@@ -1,0 +1,37 @@
+<div class="rollcard">
+  <div class="rollcard-top">
+    <div class="cpr-block chat-rollTitle-stat">
+      <div class="text-center text-padding-top text-normal text-semi">
+        {{rollTitle}} ({{formula}})
+      </div>
+      {{#if rollCardExtraArgs.rollDescription }}
+        <div class="rollcard-subtitle">
+          <div class="rollcard-subtitle-center text-small">
+            {{rollCardExtraArgs.rollDescription}}
+          </div>
+        </div>
+      {{/if}}
+    </div>
+  </div>
+  <div class="rollcard-bottom">
+    <div class="cpr-block">
+      <div class="{{die}}-rollcard-data">
+        <div class="{{die}}-dice-div">
+          {{{diceHTML}}}
+        </div>
+        <div class="{{die}}-number-div">
+          <a><span class="{{#if (cprCompare mods.length "||" additionalMods.length) }}clickable{{/if }}{{#if criticalCard }} text-semi{{/if }}"
+      data-action="toggleVisibility"
+      data-visible-element="{{die}}-data-details">{{resultTotal}}</span></a>
+        </div>
+        <div class="{{die}}-data-div">
+          <div class="{{die}}-data-details hide">
+            {{#if (cprCompare mods.length "||" additionalMods.length) }}
+              {{> "systems/cyberpunk-red-core/templates/chat/cpr-rollcard-modifiers.hbs" this}}
+            {{/if}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

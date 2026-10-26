@@ -1,0 +1,18 @@
+<section class="standard-form scrollable cpr-browser-compendia-settings">
+  <p class="hint">{{localize "CPR.settings.browserCompendiaMenu.desc"}}</p>
+  {{#each groups}}
+  <div class="cpr-browser-compendia-group-block">
+    <h3 class="cpr-browser-compendia-group">
+      <input type="checkbox" class="cpr-browser-compendia-group-toggle"
+        {{#if allActive}}checked{{/if}} />
+      <span class="cpr-browser-compendia-group-name">{{name}}</span>
+    </h3>
+    {{#each packs}}
+    <div class="cpr-browser-compendia-row">
+      <label>{{label}}</label>
+      <input type="checkbox" data-pack-id="{{id}}" {{#if active}}checked{{/if}} />
+    </div>
+    {{/each}}
+  </div>
+  {{/each}}
+</section>

@@ -1,0 +1,10 @@
+# Foundry VTT user data (generated at runtime)
+config/options.json
+*.log
+
+# Node modules
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,111 @@
+{
+  "label": "Tables aléatoires architecture NET",
+  "mapping": {},
+  "entries": {
+    "All Other Floors (Advanced)": {
+      "name": "Tous les autres étages (Avancé)",
+      "results": [
+        {
+          "3-3": "Hellhound x3",
+          "4-4": "Cobra x2",
+          "5-5": "Hellhound, Liche",
+          "6-6": "Wisp x3",
+          "7-7": "Cerbère, Tigre à dents de sabre",
+          "8-8": "Kraken",
+          "9-9": "Password DV12",
+          "10-10": "File DV12",
+          "11-11": "Control Node DV12",
+          "12-12": "Password DV12",
+          "13-13": "Giant",
+          "14-14": "Dragon",
+          "15-15": "Killer, Scorpion",
+          "16-16": "Kraken",
+          "17-17": "Raven, Wisp, Hellhound",
+          "18-18": "Dragon x2"
+        }
+      ]
+    },
+    "All Other Floors (Basic)": {
+      "name": "Tous les autres étages (Basique)",
+      "results": [
+        {
+          "3-3": "Cerbère",
+          "4-4": "Sabertooth",
+          "5-5": "Raven x2",
+          "6-6": "Cerbère",
+          "7-7": "Wisp",
+          "8-8": "Raven",
+          "9-9": "Password DV6",
+          "10-10": "File DV6",
+          "11-11": "Control Node DV6",
+          "12-12": "Password DV6",
+          "13-13": "Skunk",
+          "14-14": "Cobra",
+          "15-15": "Scorpion",
+          "16-16": "Killer, Skunk",
+          "17-17": "Wisp x3",
+          "18-18": "Liche"
+        }
+      ]
+    },
+    "All Other Floors (Standard)": {
+      "name": "Tous les autres étages (Standard)",
+      "results": [
+        {
+          "3-3": "Hellhound x2",
+          "4-4": "Hellhound, Killer",
+          "5-5": "Skunk x2",
+          "6-6": "Sabertooth",
+          "7-7": "Scorpion",
+          "8-8": "Cerbère",
+          "9-9": "Password DV8",
+          "10-10": "File DV8",
+          "11-11": "Control Node DV8",
+          "12-12": "Password DV8",
+          "13-13": "Cobra",
+          "14-14": "Killer",
+          "15-15": "Liche",
+          "16-16": "Cobra",
+          "17-17": "Raven x3",
+          "18-18": "Liche, Raven"
+        }
+      ]
+    },
+    "All Other Floors (Uncommon)": {
+      "name": "Tous les autres étages (inhabituel)",
+      "results": [
+        {
+          "3-3": "Kraken",
+          "4-4": "Hellhound, Scorpion",
+          "5-5": "Cerbère, Tueur",
+          "6-6": "Raven x2",
+          "7-7": "Sabertooth",
+          "9-9": "Mot de passe SD10",
+          "10-10": "Fichier SD10",
+          "11-11": "Nœud de contrôle SD10",
+          "12-12": "Mot de passe SD10",
+          "13-13": "Killer",
+          "14-14": "Liche",
+          "15-15": "Dragon",
+          "16-16": "Asp, Raven",
+          "17-17": "Dragon, Feu follet",
+          "18-18": "Giant",
+          "8-8": "Cerbère"
+        }
+      ]
+    },
+    "First Two Floors (The Lobby)": {
+      "name": "Deux premiers étages (Le Lobby)",
+      "results": [
+        {
+          "1-1": "Fichier SD6",
+          "2-2": "Mot de passe SD6",
+          "3-3": "Mot de passe SD8",
+          "4-4": "Putois",
+          "5-5": "Feu follet",
+          "6-6": "Tueur"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "label": "Киберимпланты (основа)",
+  "mapping": {
+    "dvTable": "system.dvTable"
+  },
+  "entries": {
+    "External (7 Option Slots)": {
+      "name": "Внешние (7 слотов расширений)",
+      "description": "",
+      "dvTable": ""
+    },
+    "Fashionware (7 Option Slots)": {
+      "name": "Стилевые (7 слотов расширений)",
+      "description": "",
+      "dvTable": ""
+    },
+    "Internal (7 Option Slots)": {
+      "name": "Внутренние (7 слотов расширений)",
+      "description": "",
+      "dvTable": ""
+    }
+  }
+}

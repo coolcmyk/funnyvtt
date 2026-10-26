@@ -1,0 +1,42 @@
+<div class="cpr-browser-globals">
+  <div class="cpr-browser-field cpr-browser-global-search">
+    <input type="text" class="cpr-browser-name-input" value="{{name}}"
+      aria-label="{{localize 'CPR.browser.searchPlaceholder'}}"
+      placeholder="{{localize 'CPR.browser.searchPlaceholder'}}" />
+  </div>
+
+  {{#if isItemContext}}
+  <div class="cpr-browser-global-filters">
+    <div class="cpr-browser-field">
+      <label for="cpr-browser-source-scope">{{localize "CPR.browser.filter.sourceScope"}}</label>
+      <select id="cpr-browser-source-scope" class="cpr-browser-source-scope">
+        {{selectOptions sourceScopeOptions selected=sourceScope localize=true}}
+      </select>
+    </div>
+
+    <div class="cpr-browser-field">
+      <label for="cpr-browser-quality">{{localize "CPR.browser.filter.quality"}}</label>
+      <select id="cpr-browser-quality" class="cpr-browser-quality">
+        <option value="">{{localize "CPR.browser.compare.any"}}</option>
+        {{selectOptions itemQuality selected=quality localize=true}}
+      </select>
+    </div>
+
+    <div class="cpr-browser-field cpr-browser-global-range">
+      <label
+        for="cpr-browser-price-category-op">{{localize "CPR.browser.priceCategory.label"}}</label>
+      <div class="cpr-browser-field-row">
+        <select id="cpr-browser-price-category-op" class="cpr-browser-price-category-op"
+          aria-label="{{localize 'CPR.browser.priceCategory.label'}}">
+          {{selectOptions priceCategoryOps selected=priceCategoryOp localize=true}}
+        </select>
+        <select class="cpr-browser-price-category-value"
+          aria-label="{{localize 'CPR.browser.priceCategory.label'}}">
+          <option value=""></option>
+          {{selectOptions priceCategories selected=priceCategoryValue localize=true}}
+        </select>
+      </div>
+    </div>
+  </div>
+  {{/if}}
+</div>

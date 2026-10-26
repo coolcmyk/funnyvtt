@@ -1,0 +1,553 @@
+{
+  "label": "Киберимпланты",
+  "mapping": {
+    "dvTable": "system.dvTable"
+  },
+  "entries": {
+    "Amplified Hearing": {
+      "name": "Усиленный слух",
+      "description": "<p>+2 к проверкам внимательности, требующим слух.</p>",
+      "dvTable": ""
+    },
+    "Anti-Dazzle": {
+      "name": "Антиблик",
+      "description": "<p>Работают в паре. Иммунитет к ослепляющим эффектам (например от светошумовых гранат).</p>",
+      "dvTable": ""
+    },
+    "Artificial Shoulder Mount": {
+      "name": "Искусственные плечи",
+      "description": "<p>\n  Allows you to install an extra pair of cyberarms. Additional cyberarms are\n  sold &amp; installed separately.\n</p>\n<blockquote>\n  <p>\n    * Install your extra pair of foundational Cyberarms as normal, do not\n    install your extra cyberarms into this item.\n  </p>\n</blockquote>\n",
+      "dvTable": ""
+    },
+    "Audio Recorder": {
+      "name": "Диктофон",
+      "description": "<p>Записывает звук. Можно связать со щепкой или агентом.</p>",
+      "dvTable": ""
+    },
+    "AudioVox": {
+      "name": "АудиоВокс",
+      "description": "<p>Автотюн голоса. +2 к проверкам актёрской игры и игры на инструментах.</p>",
+      "dvTable": ""
+    },
+    "Big Knucks": {
+      "name": "Большие костяшки",
+      "description": "<p>Армированные костяшки, выполняющие функцию оружия ближнего боя.</p>",
+      "dvTable": ""
+    },
+    "Biomonitor": {
+      "name": "Биомонитор",
+      "description": "<p>ЖК-экран с информацией о жизнедеятельности носящего. Может быть связан с агентом.</p>",
+      "dvTable": ""
+    },
+    "Braindance Recorder": {
+      "name": "Имплант записи брейндансов",
+      "description": "<p>Записывает воспоминания для воспроизведения в виде брейнданса. Подходит для журналистов.</p>",
+      "dvTable": ""
+    },
+    "Bug Detector": {
+      "name": "Обнаружитель жучков",
+      "description": "<p>Сообщает о жучках в радиусе 2 м/ярд.</p>",
+      "dvTable": ""
+    },
+    "Chemical Analyzer": {
+      "name": "Химический анализатор",
+      "description": "<p>Щепка.</p>\n<p>Позволяет узнать состав вещества.</p>",
+      "dvTable": ""
+    },
+    "Chemskin": {
+      "name": "Химкожа",
+      "description": "<p>+2 к проверкам ухода за собой, если используется с техволосами. Меняет цвет кожи.</p>",
+      "dvTable": ""
+    },
+    "Chipware Socket": {
+      "name": "Разъём для щепок",
+      "description": "<p>Слот для установки и удаления щепок.</p>",
+      "dvTable": ""
+    },
+    "Chyron": {
+      "name": "Хирон",
+      "description": "<p>Маленький экранчик в глазу. Показывает картинку в картинке, чтобы скрасить скуку.</p>",
+      "dvTable": ""
+    },
+    "Color Shift": {
+      "name": "Смена цвета",
+      "description": "<p>Позволяет менять цвет глаз без ограничений в оттенках и рисунках.</p>",
+      "dvTable": ""
+    },
+    "Contraceptive Implant": {
+      "name": "Имплантат контрацепции",
+      "description": "<p>Предотвращает нежелательную беременность.</p>",
+      "dvTable": ""
+    },
+    "Cyberarm": {
+      "name": "Киберрука",
+      "description": "<p>Кибернетическая рука. Бесплатная кисть в комплекте.</p>",
+      "dvTable": ""
+    },
+    "Cyberaudio Suite": {
+      "name": "Система кибераудио",
+      "description": "<p>Интерфейс для улучшений аудио.</p>",
+      "dvTable": ""
+    },
+    "Cyberdeck (Hardwired)": {
+      "name": "Кибердека (встроенная)",
+      "description": "<p>Встроенная кибердека, так она будет всегда с собой.</p>",
+      "dvTable": ""
+    },
+    "Cybereye": {
+      "name": "Киберглаз",
+      "description": "<p>Искусственный глаз. Выбирай оптику Кироси!</p>",
+      "dvTable": ""
+    },
+    "Cyberleg": {
+      "name": "Кибернога",
+      "description": "<p>Кибернетическая нога. Бесплатная ступня в комплекте.</p>",
+      "dvTable": ""
+    },
+    "Cybersnake": {
+      "name": "Киберзмея",
+      "description": "<p>Спрятанная в горле змея, считающаяся за очень тяжёлое оружие ближнего боя.</p>",
+      "dvTable": ""
+    },
+    "Dartgun": {
+      "name": "Дротикомёт",
+      "description": "<p>Однозарядное оружие, которое можно спрятать.</p>",
+      "dvTable": "DV Pistol"
+    },
+    "Difficult Skill Chip": {
+      "name": "Щепка со сложным навыком",
+      "description": "<p>Щепка.</p>\n<p>Даёт третий уровень определённого сложного навыка при установке (если он уже не выше или равен третьему).</p>",
+      "dvTable": ""
+    },
+    "EMP Threading": {
+      "name": "Шелкография от ЭМИ",
+      "description": "<p>Кожа выглядит как интегральная схема.</p>",
+      "dvTable": ""
+    },
+    "Enhanced Antibodies": {
+      "name": "Улучшенные антитела",
+      "description": "<p>Удваивает скорость лечения во время отдыха.</p>",
+      "dvTable": ""
+    },
+    "Exposed Covering (Cyber Arm)": {
+      "name": "Exposed Covering (Cyber Arm)",
+      "description": "<p>\n  Your cybernetics are exposed, maybe you should purchase a covering for your\n  arm?\n</p>\n",
+      "dvTable": ""
+    },
+    "Exposed Covering (Cyber Leg)": {
+      "name": "Exposed Covering (Cyber Leg)",
+      "description": "<p>\n  Your cybernetics are exposed, maybe you should purchase a covering for your\n  arm?\n</p>\n",
+      "dvTable": ""
+    },
+    "Gills": {
+      "name": "Жабры",
+      "description": "<p>Позволяют дышать под водой.</p>",
+      "dvTable": ""
+    },
+    "Grafted Muscle and Bone Lace": {
+      "name": "Наращенные мышцы и укреплённые кости",
+      "description": "<p>+2 к ТЕЛ. Можно установить несколько раз. Максимально 10 ТЕЛ.</p>",
+      "dvTable": ""
+    },
+    "Grapple Hand": {
+      "name": "Рука-кошка",
+      "description": "<p>Выдвижной крюк-кошка в твоей ладони.</p>",
+      "dvTable": ""
+    },
+    "Grip Foot": {
+      "name": "Цепкие ступни",
+      "description": "<p>Работают в паре. Обеспечивает трение для перемещения вертикально.</p>",
+      "dvTable": ""
+    },
+    "Hardened Shielding (Cyber Arm)": {
+      "name": "Усиленное экранирование (киберрука)",
+      "description": "<p>Рука и установленные в неё расширения игнорируют ЭМИ.</p>",
+      "dvTable": ""
+    },
+    "Hardened Shielding (Cyber Leg)": {
+      "name": "Усиленное экранирование (кибернога)",
+      "description": "<p>Нога и установленные в неё расширения игнорируют ЭМИ.</p>",
+      "dvTable": ""
+    },
+    "Hidden Holster": {
+      "name": "Скрытая кобура",
+      "description": "<p>Кобура спрятанная внутри тебя.</p>",
+      "dvTable": ""
+    },
+    "Homing Tracer": {
+      "name": "Радиопеленгатор",
+      "description": "<p>Подаёт звуковой сигнал в радиусе 1 мили (1.75 км) от радиомаячка. Маячок в комплекте только один.</p>",
+      "dvTable": ""
+    },
+    "Image Enhance": {
+      "name": "Улучшение изображения",
+      "description": "<p>Работают в паре. +2 к проверкам внимания, чтения по губам и сокрытии/обнаружения предмета, требующим зрение.</p>",
+      "dvTable": ""
+    },
+    "Implanted Linear Frame β (Beta)": {
+      "name": "Имплантированный прямоходный остов β (бета)",
+      "description": "<ul>\n<li>Требует ТЕЛ 8,  две установки наращенных мышц и укреплённых костей.</li>\n<li>Поднимает ТЕЛ до 14 (влияет на ПЗ, порог ранений и испытание против смерти).</li>\n</ul>",
+      "dvTable": ""
+    },
+    "Implanted Linear Frame ∑ (Sigma)": {
+      "name": "Имплантированный прямоходный остов ∑ (сигма)",
+      "description": "<ul>\n<li>Требует ТЕЛ 6 и установку наращенных мышц и укреплённых костей.</li>\n<li>Поднимает ТЕЛ до 12 (влияет на ПЗ, порог ранений и испытание против смерти).</li>\n</ul>",
+      "dvTable": ""
+    },
+    "Independent Air Supply": {
+      "name": "Независимый контур дыхания",
+      "description": "<p>Запас воздуха на 30 минут. Можно заправлять.</p>",
+      "dvTable": ""
+    },
+    "Interface Plugs": {
+      "name": "Разъём интерфейса",
+      "description": "<p>Разъёмы в кисти или в голове для подключения к машинам/системам.</p>",
+      "dvTable": ""
+    },
+    "Internal Agent": {
+      "name": "Внутренний агент",
+      "description": "<p>Встроенный агент. По умолчанию только звук, но можно подключить к другим иплантам.</p>",
+      "dvTable": ""
+    },
+    "Jump Booster": {
+      "name": "Прыжковый усилитель",
+      "description": "<p>Работают в паре. Встроенная гидравлика, убирающая штраф на прыжки.</p>",
+      "dvTable": ""
+    },
+    "Kerenzikov": {
+      "name": "Керензиков",
+      "description": "<p>Ускоритель. +2 к инициативе.</p>",
+      "dvTable": ""
+    },
+    "Level Damper": {
+      "name": "Шумопоглотитель",
+      "description": "<p>Иммунитет к глухоте и громким звукам.</p>",
+      "dvTable": ""
+    },
+    "Light Tattoo": {
+      "name": "Светотату",
+      "description": "<p>\n  Glowing tattoos. +2 to Wardrobe &amp; Style if you have at least three\n  installed.\n</p>\n",
+      "dvTable": ""
+    },
+    "Low Light/IR/UV": {
+      "name": "Слабое освещение/ИК/УФ",
+      "description": "<p>Работают в паре. Иммунитет к штрафам на зрение из-за освещения, тумана или дыма.</p>",
+      "dvTable": ""
+    },
+    "Meat Arm": {
+      "name": "Мясная рука",
+      "description": "<p>Обычная рука. Годится только для имплантов вроде «Стандартной кисти», а так же некоторых видов оружия и инструментов, но только в количестве одной штуки.</p>",
+      "dvTable": ""
+    },
+    "Meat Foot": {
+      "name": "Meat Foot",
+      "description": "<p>Looks like a normal foot for the most part.</p>\n",
+      "dvTable": ""
+    },
+    "Meat Hand": {
+      "name": "Meat Hand",
+      "description": "<p>Looks like a normal hand for the most part.</p>\n",
+      "dvTable": ""
+    },
+    "Meat Leg": {
+      "name": "Мясная нога",
+      "description": "<p>Обычная нога. Годится только для имплантов вроде «Стандартной ступни», а так же некоторых видов оружия вроде «Когтя в ступне».</p>",
+      "dvTable": ""
+    },
+    "Medical Grade Cyberarm": {
+      "name": "Киберрука медицинского назначения",
+      "description": "<p>Киберрука медицинского назначения. Не позволяет установку расширений.</p>",
+      "dvTable": ""
+    },
+    "Medical Grade Cyberleg": {
+      "name": "Кибернога медицинского назначения",
+      "description": "<p>Кибернога медицинского назначения. Не позволяет установку расширений.</p>",
+      "dvTable": ""
+    },
+    "Medscanner": {
+      "name": "Медсканер",
+      "description": "<p>Встроенный медсканнер, позволяющий быстро оценить уровень повреждений. +2 к проверкам первой помощи и парамедика.</p>",
+      "dvTable": ""
+    },
+    "Memory Chip": {
+      "name": "Щепка памяти",
+      "description": "<p>Щепка.</p>\n<p>Хранилище данных. Флешка для твоего мозга. Не забывай безопасно извлекать.</p>",
+      "dvTable": ""
+    },
+    "MicroOptics": {
+      "name": "МикроОптика",
+      "description": "<p>Приближение до х400!</p>",
+      "dvTable": ""
+    },
+    "MicroVideo": {
+      "name": "МикроВидео",
+      "description": "<p>Камера в глазу, которую можно связать с щепкой или агентом. Подходит для журналистов.</p>",
+      "dvTable": ""
+    },
+    "Midnight Lady Sexual Implant": {
+      "name": "Сексуальный имплант «Полуночная дама»",
+      "description": "<p>Можно мыть в стиральной машине.</p>",
+      "dvTable": ""
+    },
+    "Mr. Studd Sexual Implant": {
+      "name": "Сексуальный имплант «Мистер жеребец»",
+      "description": "<p>Готов тогда, когда ты готов.</p>",
+      "dvTable": ""
+    },
+    "MultiOptic Mount": {
+      "name": "Крепление МультиОптик",
+      "description": "<p>\n  Allows you to install up to 5 additional cybereyes. Additional cybereyes are\n  sold &amp; installed separately.\n</p>\n<blockquote>\n  <p>\n    * Install your extra foundational Cybereyes as normal, do not install your\n    extra cybereyes into this item.\n  </p>\n</blockquote>\n",
+      "dvTable": ""
+    },
+    "Nasal Filters": {
+      "name": "Носовые фильтры",
+      "description": "<p>Иммунитет к вдыхаемым газам и запахам.</p>",
+      "dvTable": ""
+    },
+    "Neural Link": {
+      "name": "Нейронная связь",
+      "description": "<p>Доступ к нервной системе.</p>",
+      "dvTable": ""
+    },
+    "Olfactory Boost": {
+      "name": "Усилитель обоняния",
+      "description": "<p>Щепка.<p>\n</p>Позволяет отслеживать запахи.</p>",
+      "dvTable": ""
+    },
+    "Pain Editor": {
+      "name": "Редактор боли",
+      "description": "<p>Щепка. Убирает штраф от серьёзного ранения.</p>",
+      "dvTable": ""
+    },
+    "Plastic Covering (Cyber Arm)": {
+      "name": "Пластиковое покрытие (киберрука)",
+      "description": "<p>Пластиковая оболочка для твоей руки.</p>",
+      "dvTable": ""
+    },
+    "Plastic Covering (Cyber Leg)": {
+      "name": "Пластиковое покрытие (кибернога)",
+      "description": "<p>Пластиковая оболочка для твоей ноги.</p>",
+      "dvTable": ""
+    },
+    "Popup Grenade Launcher": {
+      "name": "Выдвижной гранатомёт",
+      "description": "<p>\n  A concealable one-shot Grenade Launcher. Can't hold anything with this hand\n  while activated. Incompatible with all upgrades except\n  @UUID[Compendium.cyberpunk-red-core.core_upgrades.Item.BC8S1sdK0QGdyHNC]{Smartgun Link}.\n</p>\n",
+      "dvTable": "СЛ Гранатомёт"
+    },
+    "Popup Melee Weapon": {
+      "name": "Выдвижное оружие ближнего боя",
+      "description": "<p>\n  A concealable One-Handed Melee Weapon. Can't hold anything with this hand\n  while activated.\n</p>\n<blockquote>\n  <p>Configure settings to match the weapon being installed.</p>\n</blockquote>\n",
+      "dvTable": ""
+    },
+    "Popup Ranged Weapon": {
+      "name": "Выдвижное оружие дальнего боя",
+      "description": "<p>\n  A concealable One-Handed Ranged Weapon. Can't hold anything with this hand\n  while activated.\n</p>\n<blockquote>\n  <p>Configure settings to match the weapon being installed.</p>\n</blockquote>\n",
+      "dvTable": "СЛ Пистолет"
+    },
+    "Popup Shield": {
+      "name": "Выдвижной щит",
+      "description": "<p>\n  A foldable bulletproof shield that can be drawn or concealed easily. Can't\n  hold anything with this hand while activated.\n</p>\n<blockquote>\n  <p>\n    Add\n    @UUID[Compendium.cyberpunk-red-core.core_armor.Item.Bg1YEeF25HhfrzOG]{Bullet Proof Shield}\n    to inventory to manage shield HP.\n  </p>\n</blockquote>\n",
+      "dvTable": ""
+    },
+    "Quick Change Mount": {
+      "name": "Быстросменный шарнир",
+      "description": "<p>С его помощью можно с лёгкостью снять и присоединить (и даже поменять) киберруку. По руке на все случаи жизни.</p>",
+      "dvTable": ""
+    },
+    "Radar Detector": {
+      "name": "Антирадар",
+      "description": "<p>Предупреждает об активных РЛС на в радиусе до мили (1.75 км).</p>",
+      "dvTable": ""
+    },
+    "Radar/Sonar Implant": {
+      "name": "Радар/Сонар",
+      "description": "<p>Радиус обзора 50 м/ярд. Не видит через укрытия.</p>",
+      "dvTable": ""
+    },
+    "Radiation Detector": {
+      "name": "Детектор излучения",
+      "description": "<p>Показывает излучение как синее свечение на дистанциях до 100 м/ярд.</p>",
+      "dvTable": ""
+    },
+    "Radio Communicator": {
+      "name": "Радиокоммуникатор",
+      "description": "<p>Встроенная рация с радиусом действия 1 миля (1.75 км).</p>",
+      "dvTable": ""
+    },
+    "Radio Scanner/Music Player": {
+      "name": "Радиоприёмник/Музыкальный плеер",
+      "description": "<p>Настройся на радиостанции СитиНета или слушай сохранённую музыку.</p>",
+      "dvTable": ""
+    },
+    "Realskinn Covering (Cyber Arm)": {
+      "name": "Покрытие Realskinn (киберрука)",
+      "description": "<p>Искусственная кожа для твоей руки.</p>",
+      "dvTable": ""
+    },
+    "Realskinn Covering (Cyber Leg)": {
+      "name": "Покрытие Realskinn (кибернога)",
+      "description": "<p>Искусственная кожа для твоей ноги.</p>",
+      "dvTable": ""
+    },
+    "Rippers": {
+      "name": "Потрошители",
+      "description": "<p>Очень острые ногти, которые считаются за среднее оружие ближнего боя. Можно спрятать.</p>",
+      "dvTable": ""
+    },
+    "Sandevistan": {
+      "name": "Сандевистан",
+      "description": "<p>Ускоритель. +3 к инициативе на минуту. Перезагрузка один час.</p>",
+      "dvTable": ""
+    },
+    "Scrambler/Descrambler": {
+      "name": "Скремблер/Дескремблер",
+      "description": "<p>Кодирует и декодирует передачи.</p>",
+      "dvTable": ""
+    },
+    "Scratchers": {
+      "name": "Царапки",
+      "description": "<p>Острые ногти, которые считаются за лёгкое оружие ближнего боя. Можно спрятать.</p>",
+      "dvTable": ""
+    },
+    "Sensor Array": {
+      "name": "Сенсорная установка",
+      "description": "<p>Allows you to install up to 5 additional cyberaudio options.</p>\n<blockquote>\n  <p>* Manually adjust your Cyberaudio Suite's number of slots to 8.</p>\n</blockquote>\n",
+      "dvTable": ""
+    },
+    "Shift Tacts": {
+      "name": "Цветные линзы",
+      "description": "<p>Позволяют изменить цвет глаз. Можно включать и выключать по желанию.</p>",
+      "dvTable": ""
+    },
+    "Shoulder Cam": {
+      "name": "Камера на плече",
+      "description": "<p>Складная камера на плече. Можно подключить к щепке или агенту.</p>",
+      "dvTable": ""
+    },
+    "Skate Foot": {
+      "name": "Ступни-ролики",
+      "description": "<p>Работают в паре. Во время бега увеличивает СКО на 6 м/ярд.</p>",
+      "dvTable": ""
+    },
+    "Skill Chip": {
+      "name": "Щепка с навыком",
+      "description": "<p>Chipware.</p>\n<p>Sets a Skill to 3 unless the skill is already &gt;3*.</p>\n<p><em>* Not supported, Skill must be modified manually.</em></p>\n",
+      "dvTable": ""
+    },
+    "Skin Weave": {
+      "name": "Вплетение в кожу",
+      "description": "<p>Внешний киберимплант*. Броня для тела и головы с ОС7, которая восстанавливается со скоростью 1ОС/сутки. Значения ОС не складываются.</p>\n<p><em>*Киберимпланты брони не реализованы в системе, необходимо добавить предмет «Вплетение в кожу» на бланк персонажа или фуфела.</em></p>",
+      "dvTable": ""
+    },
+    "Skinwatch": {
+      "name": "Часы на коже",
+      "description": "<p>Светодиодные часы прямо на коже.</p>",
+      "dvTable": ""
+    },
+    "Slice 'N Dice": {
+      "name": "Мясорубка",
+      "description": "<p>Моноструна, которая считается за среднее оружие ближнего боя. Можно спрятать.</p>",
+      "dvTable": ""
+    },
+    "Standard Foot": {
+      "name": "Стандартная ступня",
+      "description": "<p>По большей части выглядит как нормальная ступня.</p>",
+      "dvTable": ""
+    },
+    "Standard Hand": {
+      "name": "Стандартная кисть",
+      "description": "<p>По большей части выглядит как нормальная кисть.</p>",
+      "dvTable": ""
+    },
+    "Subdermal Armor": {
+      "name": "Подкожная броня",
+      "description": "<p>Внешний киберимплант*. Броня для тела и головы с ОС11, которая восстанавливается со скоростью 1ОС/сутки. Значения ОС не складываются.</p>\n<p><em>*Киберимпланты брони не реализованы в системе, необходимо добавить предмет «Подкожная броня» на бланк персонажа или фуфела.</em></p>",
+      "dvTable": ""
+    },
+    "Subdermal Grip": {
+      "name": "Подкожный хват",
+      "description": "<p>Система в кисти, позволяющая пользоваться умным оружием. Требует нейронную связь.</p>",
+      "dvTable": ""
+    },
+    "Subdermal Pocket": {
+      "name": "Подкожный карман",
+      "description": "<p>Карман 2 на 4 дюйма (5 на 10 см).</p>",
+      "dvTable": ""
+    },
+    "Superchrome® Covering (Cyber Arm)": {
+      "name": "Покрытие «Суперхром®» (киберрука)",
+      "description": "<p>Металлическое покрытие для твоей руки. +2 к проверкам гардероба и стиля.*</p>\n<p><em>*Внимание: Эффекты Суперхрома не складываются, при установке нескольких предметов с Суперхромом лишние эффекты нужно отключить на вкладке «Эффекты».</em></p>",
+      "dvTable": ""
+    },
+    "Superchrome® Covering (Cyber Leg)": {
+      "name": "Покрытие «Суперхром®» (кибернога)",
+      "description": "<p>Металлическое покрытие для твоей ноги. +2 к проверкам гардероба и стиля.*</p>\n<p><em>*Внимание: Эффекты Суперхрома не складываются, при установке нескольких предметов с Суперхромом лишние эффекты нужно отключить на вкладке «Эффекты».</em></p>",
+      "dvTable": ""
+    },
+    "Tactile Boost": {
+      "name": "Тактильный усилитель",
+      "description": "<p>Щепка.</p>\n<p>Может обнаруживать движение на дистанциях до 20 м/ярд через поверхности.</p>",
+      "dvTable": ""
+    },
+    "Talon Foot": {
+      "name": "Коготь в ступне",
+      "description": "<p>Выдвижной клинок в ступне, который считается за лёгкое оружие ближнего боя.</p>",
+      "dvTable": ""
+    },
+    "Targeting Scope": {
+      "name": "Прицел",
+      "description": "<p>+1 к проверкам прицельного выстрела.</p>",
+      "dvTable": ""
+    },
+    "Techhair": {
+      "name": "Техволосы",
+      "description": "<p>+2 к проверкам ухода за собой вместе с химкожей. Позволяет менять цвет волос.</p>",
+      "dvTable": ""
+    },
+    "Techscanner": {
+      "name": "Техсканер",
+      "description": "<p>Содержит множество гаджетов и инструментов. +2 к проверкам множества навыков.</p>",
+      "dvTable": ""
+    },
+    "TeleOptics": {
+      "name": "ТелеОптика",
+      "description": "<p>Телескоп в глазу с дальностью обзора 800 м/ярд. +1 к одиночным и прицельным выстрелам на расстоянии от 50 м/ярд.</p>",
+      "dvTable": ""
+    },
+    "Tool Hand": {
+      "name": "Кисть-инструмент",
+      "description": "<p>В каждом пальце у тебя свой инструмент. Идеально для техников!</p>",
+      "dvTable": ""
+    },
+    "Toxin Binders": {
+      "name": "Блокираторы токсинов",
+      "description": "<p>+2 к проверкам на сопротивление пыткам/препаратам.</p>",
+      "dvTable": ""
+    },
+    "Vampyres": {
+      "name": "Вампиры",
+      "description": "<p>Острые клыки, которые считаются за лёгкое оружие ближнего боя. Могут впрыскивать яды и токсины.</p>",
+      "dvTable": ""
+    },
+    "Virtuality": {
+      "name": "Виртуальность",
+      "description": "<p>Работают в паре. Встроенные очки виртуальности.</p>",
+      "dvTable": ""
+    },
+    "Voice Stress Analyzer": {
+      "name": "Анализатор стрессовых изменений голоса",
+      "description": "<p>+2 к проверкам проницательности и допроса. Есть режим распознания лжи.</p>",
+      "dvTable": ""
+    },
+    "Web Foot": {
+      "name": "Перепончатые ступни",
+      "description": "<p>Работают в паре. Перепонки между пальцами, помогающие в плавании.</p>",
+      "dvTable": ""
+    },
+    "Wolvers": {
+      "name": "Росомахи",
+      "description": "<p>Когти, спрятанные в костяшках. Считаются за тяжёлое оружие ближнего боя. Можно спрятать.</p>",
+      "dvTable": ""
+    }
+  }
+}

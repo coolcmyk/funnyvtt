@@ -1,0 +1,60 @@
+<div class="cpr-browser-cart">
+  {{#if cartActors}}
+  <div class="cpr-browser-field cpr-browser-cart-actor">
+    <label for="cpr-browser-cart-actor">{{localize "CPR.browser.cart.buyingFor"}}</label>
+    <select id="cpr-browser-cart-actor" class="cpr-browser-cart-actor-select">
+      {{selectOptions cartActors selected=cartActorId}}
+    </select>
+  </div>
+  {{/if}}
+  <h3 class="cpr-browser-cart-header text-hero">{{localize "CPR.browser.cart.title"}}</h3>
+  <ol class="cpr-browser-cart-list">
+    {{#each cart}}
+    <li class="cpr-browser-cart-item" data-cart-uuid="{{uuid}}">
+      <img class="cpr-browser-cart-img" src="{{img}}" alt="{{name}}" />
+      <span class="cpr-browser-cart-info">
+        <span class="cpr-browser-cart-name">{{name}}</span>
+        <span class="cpr-browser-cart-brand">
+          {{#if brand}}<span class="text-pill text-smaller">{{brand}}</span>{{/if}}
+        </span>
+        <span class="cpr-browser-cart-qty">
+          <a class="cpr-browser-cart-step" data-action="adjustCartItem" data-delta="-1"
+            role="button" tabindex="0"
+            data-tooltip="{{localize 'CPR.browser.cart.decrease'}}">
+            <i class="fa-solid fa-minus"></i>
+          </a>
+          <span class="cpr-browser-cart-qty-value">{{quantity}}</span>
+          <a class="cpr-browser-cart-step" data-action="adjustCartItem" data-delta="1"
+            role="button" tabindex="0"
+            data-tooltip="{{localize 'CPR.browser.cart.increase'}}">
+            <i class="fa-solid fa-plus"></i>
+          </a>
+        </span>
+      </span>
+      <span class="cpr-browser-cart-price">
+        <span class="cpr-browser-cart-eb">{{lineTotalLabel}}</span>
+        {{#if categoryLabel}}
+        <span class="cpr-browser-cart-category">({{localize categoryLabel}})</span>
+        {{/if}}
+      </span>
+      <a class="cpr-browser-cart-remove" data-action="removeFromCart" role="button"
+        tabindex="0" data-tooltip="{{localize 'CPR.browser.cart.remove'}}">
+        <i class="fa-solid fa-xmark"></i>
+      </a>
+    </li>
+    {{/each}}
+  </ol>
+  {{#unless cart.length}}
+  <p class="cpr-browser-cart-empty">{{localize "CPR.browser.cart.empty"}}</p>
+  {{/unless}}
+  <footer class="cpr-browser-cart-footer">
+    <div class="cpr-browser-cart-total">
+      <span>{{localize "CPR.browser.cart.total"}}</span>
+      <span class="cpr-browser-cart-eb">{{cartTotalLabel}}</span>
+    </div>
+    <button type="button" class="cpr-browser-cart-purchase" data-action="purchaseCart"
+      {{#unless cart.length}}disabled{{/unless}}>
+      {{localize "CPR.browser.cart.purchase"}}
+    </button>
+  </footer>
+</div>

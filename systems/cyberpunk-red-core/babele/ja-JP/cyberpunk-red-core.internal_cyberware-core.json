@@ -1,0 +1,23 @@
+{
+  "label": "サイバー ウェア (コア)",
+  "mapping": {
+    "dvTable": "system.dvTable"
+  },
+  "entries": {
+    "External (7 Option Slots)": {
+      "name": "体表 (7 オプションスロット)",
+      "description": "",
+      "dvTable": ""
+    },
+    "Fashionware (7 Option Slots)": {
+      "name": "ファッションウェア(7オプションスロット)",
+      "description": "",
+      "dvTable": ""
+    },
+    "Internal (7 Option Slots)": {
+      "name": "体内 (7 オプションスロット)",
+      "description": "",
+      "dvTable": ""
+    }
+  }
+}

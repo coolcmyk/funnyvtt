@@ -1,0 +1,21 @@
+<section class="standard-form scrollable">
+  <p class="hint">{{localize "CPR.settings.homebrewMenu.desc"}}</p>
+
+  <div class="form-group">
+    <label>{{localize "CPR.settings.homebrewLuckRoll.name"}}</label>
+    <div class="form-fields">
+      <input type="checkbox" name="homebrewLuckRoll" {{checked luckRollEnabled}}/>
+    </div>
+    <p class="hint">{{localize "CPR.settings.homebrewLuckRoll.hint"}}</p>
+  </div>
+
+  <div class="form-group">
+    <label>{{localize "CPR.settings.homebrewLuckRollVariant.name"}}</label>
+    <div class="form-fields">
+      <select name="homebrewLuckRollVariant">
+        {{selectOptions variantChoices selected=luckRollVariant localize=true}}
+      </select>
+    </div>
+    <p class="hint">{{localize "CPR.settings.homebrewLuckRollVariant.hint"}}</p>
+  </div>
+</section>

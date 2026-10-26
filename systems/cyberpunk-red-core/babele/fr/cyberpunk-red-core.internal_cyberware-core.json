@@ -1,0 +1,23 @@
+{
+  "label": "Cyberimplant (Core)",
+  "mapping": {
+    "dvTable": "system.dvTable"
+  },
+  "entries": {
+    "External (7 Option Slots)": {
+      "name": "Externe (7 Emplacements d'extension)",
+      "description": "",
+      "dvTable": ""
+    },
+    "Fashionware (7 Option Slots)": {
+      "name": "Cyberfashion (7 emplacements d'extension)",
+      "description": "",
+      "dvTable": ""
+    },
+    "Internal (7 Option Slots)": {
+      "name": "Interne (7 Emplacements d'extension)",
+      "description": "",
+      "dvTable": ""
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "label": "Cyberware (Core)",
+  "mapping": {
+    "dvTable": "system.dvTable"
+  },
+  "entries": {
+    "External (7 Option Slots)": {
+      "name": "External (7 Option Slots)",
+      "description": "",
+      "dvTable": ""
+    },
+    "Fashionware (7 Option Slots)": {
+      "name": "Fashionware (7 Option Slots)",
+      "description": "",
+      "dvTable": ""
+    },
+    "Internal (7 Option Slots)": {
+      "name": "Internal (7 Option Slots)",
+      "description": "",
+      "dvTable": ""
+    }
+  }
+}

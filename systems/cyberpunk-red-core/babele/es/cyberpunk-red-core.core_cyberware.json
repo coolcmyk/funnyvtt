@@ -1,0 +1,553 @@
+{
+  "label": "Cyberware",
+  "mapping": {
+    "dvTable": "sistema.Tablavd"
+  },
+  "entries": {
+    "Amplified Hearing": {
+      "name": "Escucha Amplificada",
+      "description": "<p>Proporciona +2 a las tiradas de percepción que usan audición. </p>",
+      "dvTable": ""
+    },
+    "Anti-Dazzle": {
+      "name": "Anti-Deslumbrante",
+      "description": "<p>Debe estar emparejado. Proporciona inmunidad a los efectos deslumbrantes (como flashbangs).</p>",
+      "dvTable": ""
+    },
+    "Artificial Shoulder Mount": {
+      "name": "Montura Artificial de Hombro",
+      "description": "<p>\n  Allows you to install an extra pair of cyberarms. Additional cyberarms are\n  sold &amp; installed separately.\n</p>\n<blockquote>\n  <p>\n    * Install your extra pair of foundational Cyberarms as normal, do not\n    install your extra cyberarms into this item.\n  </p>\n</blockquote>\n",
+      "dvTable": ""
+    },
+    "Audio Recorder": {
+      "name": "Grabadora de Audio",
+      "description": "<p>Grabación de sonido. Puede enlazarse a un chip o agente.  </p>",
+      "dvTable": ""
+    },
+    "AudioVox": {
+      "name": "AudioVox",
+      "description": "<p>Sintetizador Autototune. Proporciona +2 para Actuar y Tocar Instrumentos. </p>",
+      "dvTable": ""
+    },
+    "Big Knucks": {
+      "name": "Nudillos Grandes",
+      "description": "<p>Nudillos blindados que funcionan como arma cuerpo a cuerpo. </p>",
+      "dvTable": ""
+    },
+    "Biomonitor": {
+      "name": "Monitor Biométrico",
+      "description": "<p>Proporciona un LED que muestre las lecturas vitales. Se puede vincular a tu agente. </p>",
+      "dvTable": ""
+    },
+    "Braindance Recorder": {
+      "name": "Grabadora de Braindance",
+      "description": "<p>Grabación de memorias para la repetición de BD. Buena para Periodistas.</p>",
+      "dvTable": ""
+    },
+    "Bug Detector": {
+      "name": "Detector de Micrófonos",
+      "description": "<p>Notifica Micrófonos o Líneas Pinchadas dentro de 2m/yds.</p>",
+      "dvTable": ""
+    },
+    "Chemical Analyzer": {
+      "name": "Analizador Químico",
+      "description": "<p>Chipware. Pruebe la composición química de algo.</p>",
+      "dvTable": ""
+    },
+    "Chemskin": {
+      "name": "Piel Química",
+      "description": "<p>+2 de Aseo Personal al usar también el Tecnopelo. Cambia el color o el tono.</p>",
+      "dvTable": ""
+    },
+    "Chipware Socket": {
+      "name": "Socket de Chipware",
+      "description": "<p>Socket único para la instalación y eliminación de un chipware </p>",
+      "dvTable": ""
+    },
+    "Chyron": {
+      "name": "Chyron",
+      "description": "<p>Una pequeña pantalla en tu ojo. Proporciona una imagen de foto o video para pasar esos momentos aburridos. </p>",
+      "dvTable": ""
+    },
+    "Color Shift": {
+      "name": "Cambio de Color",
+      "description": "<p>Te permite cambiar los ojos a un número ilimitado de colores y patrones. </p>",
+      "dvTable": ""
+    },
+    "Contraceptive Implant": {
+      "name": "Implante Anticonceptivo",
+      "description": "<p>Previene embarazo no deseado.</p>",
+      "dvTable": ""
+    },
+    "Cyberarm": {
+      "name": "Cyberbrazo",
+      "description": "<p>Un brazo de reemplazo cibernético. Viene con una mano gratuita. </p>",
+      "dvTable": ""
+    },
+    "Cyberaudio Suite": {
+      "name": "Suite de Cyberaudio",
+      "description": "<p>Interfaz base para mejoras de audio.</p>",
+      "dvTable": ""
+    },
+    "Cyberdeck (Hardwired)": {
+      "name": "Cyberterminal (Cableado)",
+      "description": "<p>Un Cyberterminal integrado. Siempre disponible. </p>",
+      "dvTable": ""
+    },
+    "Cybereye": {
+      "name": "Cyberóptico",
+      "description": "<p>Un ojo artificial. ¡Elige la Óptica de Kiroshi!</p>",
+      "dvTable": ""
+    },
+    "Cyberleg": {
+      "name": "Cyberpierna",
+      "description": "<p>Una pierna de reemplazo cibernético. Viene con un pie gratis. </p>",
+      "dvTable": ""
+    },
+    "Cybersnake": {
+      "name": "Cyberserpiente",
+      "description": "<p>Una serpiente de garganta que cuenta como un arma cuerpo a cuerpo muy pesada. </p>",
+      "dvTable": ""
+    },
+    "Dartgun": {
+      "name": "Lanzadardos",
+      "description": "<p>Un solo arma de tiro que puede ser ocultada. </p>",
+      "dvTable": "DV Pistol"
+    },
+    "Difficult Skill Chip": {
+      "name": "Chip de Habilidad Difícil",
+      "description": "<p>Chipware. Proporciona un valor de 3 a una habilidad específica (x2) mientras esté instalada (a menos que la habilidad ya sea 3+). </p>",
+      "dvTable": ""
+    },
+    "EMP Threading": {
+      "name": "Hilo EMP,",
+      "description": "<p>Efecto PCB en la piel.</p>",
+      "dvTable": ""
+    },
+    "Enhanced Antibodies": {
+      "name": "Anticuerpos Mejorados",
+      "description": "<p>Duplica la curación natural mientras descansas. </p>",
+      "dvTable": ""
+    },
+    "Exposed Covering (Cyber Arm)": {
+      "name": "Exposed Covering (Cyber Arm)",
+      "description": "<p>\n  Your cybernetics are exposed, maybe you should purchase a covering for your\n  arm?\n</p>\n",
+      "dvTable": ""
+    },
+    "Exposed Covering (Cyber Leg)": {
+      "name": "Exposed Covering (Cyber Leg)",
+      "description": "<p>\n  Your cybernetics are exposed, maybe you should purchase a covering for your\n  arm?\n</p>\n",
+      "dvTable": ""
+    },
+    "Gills": {
+      "name": "Agallas",
+      "description": "<p>Permite respirar bajo el agua. </p>",
+      "dvTable": ""
+    },
+    "Grafted Muscle and Bone Lace": {
+      "name": "Implante de Hueso y Músculo",
+      "description": "<p>Aumenta el TCO en 2 (y estadísticas relacionadas). Acumulable. Máximo de 10 TCO.</p>",
+      "dvTable": ""
+    },
+    "Grapple Hand": {
+      "name": "Mano de Escalada",
+      "description": "<p>Un gancho de escalada retráctil incrustado en tu mano.</p>",
+      "dvTable": ""
+    },
+    "Grip Foot": {
+      "name": "Pies con Crampones",
+      "description": "<p>Proporciona tracción para escalar verticalmente. Debe estar emparejado. </p>",
+      "dvTable": ""
+    },
+    "Hardened Shielding (Cyber Arm)": {
+      "name": "Escudo EMP (Cyberbrazo)",
+      "description": "<p>El brazo y las opciones instaladas no se ven afectados por los efectos EMP. </p>",
+      "dvTable": ""
+    },
+    "Hardened Shielding (Cyber Leg)": {
+      "name": "Escudo EMP (Cyberpierna)",
+      "description": "<p>La pierna y opciones instaladas no se ven afectadas por los efectos EMP. </p>",
+      "dvTable": ""
+    },
+    "Hidden Holster": {
+      "name": "Pistolera Oculta",
+      "description": "<p>Pistolera oculta dentro de ti.</p>",
+      "dvTable": ""
+    },
+    "Homing Tracer": {
+      "name": "Dispositivo de Rastreo",
+      "description": "<p>Seguimiento de audio de un rastreador de hasta 1 milla. Reemplazamientos no incluidos. </p>",
+      "dvTable": ""
+    },
+    "Image Enhance": {
+      "name": "Mejora de Imagen",
+      "description": "<p>Debe estar emparejado. +2 Percepción, Lectura de Labios y Ocultar/Revelar Objeto al usar la vista.</p>",
+      "dvTable": ""
+    },
+    "Implanted Linear Frame β (Beta)": {
+      "name": "Armazón Lineal Implantado β (Beta)",
+      "description": "<p>Aumenta tu estadística TCO a 14 (y estadísticas relacionadas)</p>",
+      "dvTable": ""
+    },
+    "Implanted Linear Frame ∑ (Sigma)": {
+      "name": "Armazón Lineal Implantado ∑ (Sigma)",
+      "description": "<p>Aumenta tu estadística TCO a 12 (y estadísticas relacionadas)</p>",
+      "dvTable": ""
+    },
+    "Independent Air Supply": {
+      "name": "Suministro de Aire Independiente",
+      "description": "<p>Permite respirar durante 30 minutos bajo el agua o condiciones similares. Se rellena con la respiración normal.</p>",
+      "dvTable": ""
+    },
+    "Interface Plugs": {
+      "name": "Conector de Interfaz",
+      "description": "<p>Conectores en la muñeca o cabeza que te permiten conectar con maquinas/sistemas sin usar las manos.</p>",
+      "dvTable": ""
+    },
+    "Internal Agent": {
+      "name": "Agente Interno",
+      "description": "<p>Agente conectado internamente. Audio solo, pero puede ser vinculado con otro cyberequipo. </p>",
+      "dvTable": ""
+    },
+    "Jump Booster": {
+      "name": "Potenciador de Salto",
+      "description": "<p>La hidráulica incorporada cancela los penalizadores por saltar. Debe emparejarse. </p>",
+      "dvTable": ""
+    },
+    "Kerenzikov": {
+      "name": "Kerenzikov",
+      "description": "<p>Speedware. Permanente +2 a la Iniciativa. </p>",
+      "dvTable": ""
+    },
+    "Level Damper": {
+      "name": "Atenuador de Nivel",
+      "description": "<p>Proporciona inmunidad a la sordera o a los ruidos súbitos. </p>",
+      "dvTable": ""
+    },
+    "Light Tattoo": {
+      "name": "Tatuaje Luminoso",
+      "description": "<p>\n  Glowing tattoos. +2 to Wardrobe &amp; Style if you have at least three\n  installed.\n</p>\n",
+      "dvTable": ""
+    },
+    "Low Light/IR/UV": {
+      "name": "Luz Tenue/IR/UV",
+      "description": "<p>Debe emparejarse. Ignora cualquier penalización de visión debido a la iluminación o niebla/humo.</p>",
+      "dvTable": ""
+    },
+    "Meat Arm": {
+      "name": "Brazo de Carne y Hueso",
+      "description": "<p>Un brazo regular. Puede soportar implantes como una Mano Estándar o algunas armas y herramientas como la única pieza instalada.</p>",
+      "dvTable": ""
+    },
+    "Meat Foot": {
+      "name": "Meat Foot",
+      "description": "<p>Looks like a normal foot for the most part.</p>\n",
+      "dvTable": ""
+    },
+    "Meat Hand": {
+      "name": "Meat Hand",
+      "description": "<p>Looks like a normal hand for the most part.</p>\n",
+      "dvTable": ""
+    },
+    "Meat Leg": {
+      "name": "Pierna de Carne y Hueso",
+      "description": "<p>Una pierna regular. Esto puede soportar implantes como un Pie Estándar o armas como el Talón Claveteado.</p>",
+      "dvTable": ""
+    },
+    "Medical Grade Cyberarm": {
+      "name": "Ciberbrazo de la escala médica",
+      "description": "<p>Ciberbrazo de la escala médica. No permite la instalación de opciones.</p>",
+      "dvTable": ""
+    },
+    "Medical Grade Cyberleg": {
+      "name": "Ciberpierna de la escala médica",
+      "description": "<p>Ciberpierna de la escala médica. No permite la instalación de opciones.</p>",
+      "dvTable": ""
+    },
+    "Medscanner": {
+      "name": "Escáner Médico",
+      "description": "<p>Analizador integrado que permite evaluar rápidamente las heridas. Proporciona +2 a las habilidades de Primeros Auxilios y Paramédico.</p>",
+      "dvTable": ""
+    },
+    "Memory Chip": {
+      "name": "Chip de Memoria",
+      "description": "<p>Chipware. Almacenamiento de datos. Como una unidad flash para su cerebro. Removible de forma segura. </p>",
+      "dvTable": ""
+    },
+    "MicroOptics": {
+      "name": "MicroÓpticos",
+      "description": "<p>Proporciona ampliación hasta 400x.</p>",
+      "dvTable": ""
+    },
+    "MicroVideo": {
+      "name": "MicroVideo",
+      "description": "<p>Una cámara ocular que puede enlazar a un chip o agente. Ideal para Periodistas. </p>",
+      "dvTable": ""
+    },
+    "Midnight Lady Sexual Implant": {
+      "name": "Implante Sexual Midnight Lady",
+      "description": "<p>lavable automáticamente.</p>",
+      "dvTable": ""
+    },
+    "Mr. Studd Sexual Implant": {
+      "name": "Implante Sexual Mr. Studd",
+      "description": "<p>Listo cuando lo estés.</p>",
+      "dvTable": ""
+    },
+    "MultiOptic Mount": {
+      "name": "Montura Multióptica",
+      "description": "<p>\n  Allows you to install up to 5 additional cybereyes. Additional cybereyes are\n  sold &amp; installed separately.\n</p>\n<blockquote>\n  <p>\n    * Install your extra foundational Cybereyes as normal, do not install your\n    extra cybereyes into this item.\n  </p>\n</blockquote>\n",
+      "dvTable": ""
+    },
+    "Nasal Filters": {
+      "name": "Filtros Nasales",
+      "description": "<p>Proporciona inmunidad a gases inhalables o vapores. </p>",
+      "dvTable": ""
+    },
+    "Neural Link": {
+      "name": "Enlace Neuronal",
+      "description": "<p>Acceso al sistema nervioso. </p>",
+      "dvTable": ""
+    },
+    "Olfactory Boost": {
+      "name": "Amplificador Olfativo",
+      "description": "<p>Chipware. Permite rastreo de fragancias</p>",
+      "dvTable": ""
+    },
+    "Pain Editor": {
+      "name": "Editor de Dolor",
+      "description": "<p>Chipware. Elimina penalizaciones de Heridas Serias.</p>",
+      "dvTable": ""
+    },
+    "Plastic Covering (Cyber Arm)": {
+      "name": "Cobertura de plástico (cyberbrazo)",
+      "description": "<p>Un tipo de recubrimiento de plástico para tu brazo. </p>",
+      "dvTable": ""
+    },
+    "Plastic Covering (Cyber Leg)": {
+      "name": "Cobertura de plástico (cyberpierna)",
+      "description": "<p>Un tipo de recubrimiento de plástico para la pierna. </p>",
+      "dvTable": ""
+    },
+    "Popup Grenade Launcher": {
+      "name": "Lanzagranadas Rápido",
+      "description": "<p>\n  A concealable one-shot Grenade Launcher. Can't hold anything with this hand\n  while activated. Incompatible with all upgrades except\n  @UUID[Compendium.cyberpunk-red-core.core_upgrades.Item.BC8S1sdK0QGdyHNC]{Smartgun Link}.\n</p>\n",
+      "dvTable": "VD Lanzagranadas"
+    },
+    "Popup Melee Weapon": {
+      "name": "Arma cuerpo a cuerpo emergente",
+      "description": "<p>\n  A concealable One-Handed Melee Weapon. Can't hold anything with this hand\n  while activated.\n</p>\n<blockquote>\n  <p>Configure settings to match the weapon being installed.</p>\n</blockquote>\n",
+      "dvTable": ""
+    },
+    "Popup Ranged Weapon": {
+      "name": "Arma a distancia emergente",
+      "description": "<p>\n  A concealable One-Handed Ranged Weapon. Can't hold anything with this hand\n  while activated.\n</p>\n<blockquote>\n  <p>Configure settings to match the weapon being installed.</p>\n</blockquote>\n",
+      "dvTable": "DV Pistol"
+    },
+    "Popup Shield": {
+      "name": "Escudo emergente",
+      "description": "<p>\n  A foldable bulletproof shield that can be drawn or concealed easily. Can't\n  hold anything with this hand while activated.\n</p>\n<blockquote>\n  <p>\n    Add\n    @UUID[Compendium.cyberpunk-red-core.core_armor.Item.Bg1YEeF25HhfrzOG]{Bullet Proof Shield}\n    to inventory to manage shield HP.\n  </p>\n</blockquote>\n",
+      "dvTable": ""
+    },
+    "Quick Change Mount": {
+      "name": "Montura de Cambio Rápido",
+      "description": "<p>Tu cyberbrazo se puede separar y volver a conectar (y cambiar) usando tu socket abierto. Mantén un brazo para cada ocasión. </p>",
+      "dvTable": ""
+    },
+    "Radar Detector": {
+      "name": "Detector de Radar",
+      "description": "<p>Notifica del radar detectado dentro de un radio de 1 milla.</p>",
+      "dvTable": ""
+    },
+    "Radar/Sonar Implant": {
+      "name": "Implante de Radar / Sonar",
+      "description": "<p>Escanea 50 m/yds a tu alrededor. No atraviesa paredes o coberturas. </p>",
+      "dvTable": ""
+    },
+    "Radiation Detector": {
+      "name": "Detector de Radiaciones",
+      "description": "<p>Muestra la radiación con brillo azul. Rango máximo de 100m/yardas</p>",
+      "dvTable": ""
+    },
+    "Radio Communicator": {
+      "name": "Comunicador de Radio",
+      "description": "<p>Walkie-Talkie incorporado. Rango de 1 milla.</p>",
+      "dvTable": ""
+    },
+    "Radio Scanner/Music Player": {
+      "name": "Radio Scanner/Reproductor de Música",
+      "description": "<p>Sintonice en emisoras de radio de CitiNet o reproduzca su música guardada localmente.</p>",
+      "dvTable": ""
+    },
+    "Realskinn Covering (Cyber Arm)": {
+      "name": "Cobertura de piel real (cyberbrazo)",
+      "description": "<p>Un tipo de piel artificial para tu brazo. </p>",
+      "dvTable": ""
+    },
+    "Realskinn Covering (Cyber Leg)": {
+      "name": "Cobertura de piel real (cyberpierna)",
+      "description": "<p>Un tipo de piel artificial para tu pierna. </p>",
+      "dvTable": ""
+    },
+    "Rippers": {
+      "name": "Rippers",
+      "description": "<p>Uñas afiladas que son un arma cuerpo a cuerpo medio. Se pueden ocultar</p>",
+      "dvTable": ""
+    },
+    "Sandevistan": {
+      "name": "Sandevistan",
+      "description": "<p>Speedware. +3 a la Iniciativa durante 1 min. 1 hora de enfriamiento.</p>",
+      "dvTable": ""
+    },
+    "Scrambler/Descrambler": {
+      "name": "Cifrador/Descifrador",
+      "description": "<p>Codifica y decodifica las transmisiones.</p>",
+      "dvTable": ""
+    },
+    "Scratchers": {
+      "name": "Desgarradores",
+      "description": "<p>Uñas afiladas que son como un arma cuerpo a cuerpo mediana. Se pueden ocultar</p>",
+      "dvTable": ""
+    },
+    "Sensor Array": {
+      "name": "Arreglo de Sensores",
+      "description": "<p>Allows you to install up to 5 additional cyberaudio options.</p>\n<blockquote>\n  <p>* Manually adjust your Cyberaudio Suite's number of slots to 8.</p>\n</blockquote>\n",
+      "dvTable": ""
+    },
+    "Shift Tacts": {
+      "name": "Pupilas Cambiables",
+      "description": "<p>Cambia el color del ojo. Se puede activar/desactivar a voluntad. </p>",
+      "dvTable": ""
+    },
+    "Shoulder Cam": {
+      "name": "Cámara de Hombro",
+      "description": "<p>Una cámara plegable que sale de tu hombro. Puede enlazarse con un agente o un chip de memoria. </p>",
+      "dvTable": ""
+    },
+    "Skate Foot": {
+      "name": "Pie de patines",
+      "description": "<p>Mientras corres tu movimiento se incrementa en 6m/yds. Debe emparejarse. </p>",
+      "dvTable": ""
+    },
+    "Skill Chip": {
+      "name": "Habilidad Chip",
+      "description": "<p>Chipware.</p>\n<p>Sets a Skill to 3 unless the skill is already &gt;3*.</p>\n<p><em>* Not supported, Skill must be modified manually.</em></p>\n",
+      "dvTable": ""
+    },
+    "Skin Weave": {
+      "name": "Tejido Dérmico",
+      "description": "<p>Cyberware corporal externo*. Cabeza y cuerpo armadura SP7 y recupera 1 CP/día. La armadura no se acumula.</p>\n<p><em>*La Armadura de Cyberware no funciona como armadura en el sistema, por favor añade el elemento \"Tejido Dérmico\" al personaje/mook para rastrear</em></p>",
+      "dvTable": ""
+    },
+    "Skinwatch": {
+      "name": "Reloj Subcutáneo",
+      "description": "<p>Un reloj LED en tu piel.</p>",
+      "dvTable": ""
+    },
+    "Slice 'N Dice": {
+      "name": "Rebanar y Trocear",
+      "description": "<p>Látigo de Monofilamento que es un arma cuerpo a cuerpo mediana. Puede ocultarse. </p>",
+      "dvTable": ""
+    },
+    "Standard Foot": {
+      "name": "Pie estándar",
+      "description": "<p>Parece un pie normal en la mayoría de los casos. </p>",
+      "dvTable": ""
+    },
+    "Standard Hand": {
+      "name": "Mano estándar",
+      "description": "<p>Parece una mano normal en la mayoría de los casos. </p>",
+      "dvTable": ""
+    },
+    "Subdermal Armor": {
+      "name": "Armadura Subdermal",
+      "description": "<p>Cyberware corporal externo*. Cabeza y cuerpo armadura SP11 y recupera 1 CP/día. La armadura no se acumula.</p>\n<p><em>*La Armadura de Cyberware no funciona como armadura en el sistema, por favor añade el elemento \"Blindaje Subcutáneo\" al personaje/mook para rastrear</em></p>",
+      "dvTable": ""
+    },
+    "Subdermal Grip": {
+      "name": "Conector de Arma Inteligente Subdérmico",
+      "description": "<p>Conector en la mano lo que te permite utilizar Armas Inteligentes. Requiere un Enlace Neuronal. </p>",
+      "dvTable": ""
+    },
+    "Subdermal Pocket": {
+      "name": "Bolsillo Subdérmico",
+      "description": "<p>Bolsillo de 2x4 pulgadas bajo la piel</p>",
+      "dvTable": ""
+    },
+    "Superchrome® Covering (Cyber Arm)": {
+      "name": "Superchrome® Covering (Cyber Arm)",
+      "description": "<p>A metallic coating for your arm. Provides +2 to Wardrobe and Style.*</p>\n<p>\n  <em\n    >*Note: Superchrome effects do not stack and will need to be managed in the\n    Effects tab if multiple Superchrome items are installed.</em\n  >\n</p>\n",
+      "dvTable": ""
+    },
+    "Superchrome® Covering (Cyber Leg)": {
+      "name": "Superchrome® Covering (Cyber Leg)",
+      "description": "<p>A metallic coating for your leg. Provides +2 to Wardrobe and Style.*</p>\n<p>\n  <em\n    >*Note: Superchrome effects do not stack and will need to be managed in the\n    Effects tab if multiple Superchrome items are installed.</em\n  >\n</p>\n",
+      "dvTable": ""
+    },
+    "Tactile Boost": {
+      "name": "Potenciador de Tacto",
+      "description": "<p>Chipware. Puede detectar movimiento de hasta 20 m/yd a través de superficies.</p>",
+      "dvTable": ""
+    },
+    "Talon Foot": {
+      "name": "Talón Claveteado",
+      "description": "<p>Una cuchilla retráctil en tu pie que es un arma cuerpo a cuerpo ligera. </p>",
+      "dvTable": ""
+    },
+    "Targeting Scope": {
+      "name": "Sistema de Puntería",
+      "description": "<p>Proporciona un +1 a los disparos apuntados.</p>",
+      "dvTable": ""
+    },
+    "Techhair": {
+      "name": "Tecnopelo",
+      "description": "<p>+2 Aseo Personal si se combina con Piel Química. Permite cambiar el color del cabello.</p>",
+      "dvTable": ""
+    },
+    "Techscanner": {
+      "name": "Escáner técnico",
+      "description": "<p>Contiene una variedad de artilugios y herramientas integradas. Proporciona un bonus de +2 a múltiples chequeos de habilidades técnicas. </p>",
+      "dvTable": ""
+    },
+    "TeleOptics": {
+      "name": "TeleOpticos",
+      "description": "<p>Telescopio en tu ojo de hasta 800m/yds. +1 a un disparo apuntado si la distancia es mayor que 50m.</p>",
+      "dvTable": ""
+    },
+    "Tool Hand": {
+      "name": "Mano de Herramientas",
+      "description": "<p>Cada dedo en tu mano tiene una herramienta diferente. ¡Buen para Técnicos!</p>",
+      "dvTable": ""
+    },
+    "Toxin Binders": {
+      "name": "Atenuador de Toxinas",
+      "description": "<p>Proporciona +2 para las tiradas de Resistir Tortugas/Drogas. </p>",
+      "dvTable": ""
+    },
+    "Vampyres": {
+      "name": "Vampiros",
+      "description": "<p>Dientes puntiagudos que son como un arma cuerpo a cuerpo ligera. Puede usar veneno/toxinas. </p>",
+      "dvTable": ""
+    },
+    "Virtuality": {
+      "name": "Virtualidad",
+      "description": "<p>Debe estar emparejado. Gafas de virtualidad integradas. </p>",
+      "dvTable": ""
+    },
+    "Voice Stress Analyzer": {
+      "name": "Analizador de Estrés de Voz",
+      "description": "<p>Proporciona +2 a las tiradas de Percepción Humana e Interrogación. Puede activar un modo especial de detección de mentiras. </p>",
+      "dvTable": ""
+    },
+    "Web Foot": {
+      "name": "Pie Palmeado",
+      "description": "<p>La membrana entre tus dedos te permite nadar con facilidad. Debe emparejarse. </p>",
+      "dvTable": ""
+    },
+    "Wolvers": {
+      "name": "Desgarradores",
+      "description": "<p>Garras que se retraen de tus nudillos que son como un arma cuerpo a cuerpo pesada. Se pueden ocultar </p>",
+      "dvTable": ""
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{{!--
+  CPR's replacement for Foundry's default Active Effect "changes" part. Renders
+  each change as a CPR modifier: a category select + a category-aware key input,
+  plus situational / on-by-default toggles. Slots into the V2 ActiveEffectConfig
+  "changes" tab (the surrounding header/details/duration/footer parts are core).
+--}}
+<section class="tab changes cpr-effect-changes{{#if tab.active}} active{{/if}}"
+         data-group="{{tab.group}}"
+         data-tab="{{tab.id}}">
+  <ol class="changes-list scrollable" data-changes>
+    <header class="change-header flexrow">
+      <div class="change-key">{{localize "EFFECT.ChangeKey"}}</div>
+      <div class="change-value">{{localize "EFFECT.ChangeValue"}}</div>
+      <div class="change-mode">{{localize "EFFECT.ChangeMode"}}</div>
+      <div class="situational">{{localize "CPR.effectSheet.header.situational"}}</div>
+      <div class="on-by-default">{{localize "CPR.effectSheet.header.onByDefault"}}</div>
+      <div class="change-actions">{{localize "CPR.effectSheet.actions"}}</div>
+    </header>
+    {{#each modList as |change i|}}
+      <li class="flexrow" data-index="{{i}}">
+        <div class="change-key" data-index="{{i}}">
+          <span class="form-fields effect-key-category" data-index="{{i}}">
+            <select class="key-cat" name="flags.cyberpunk-red-core.changes.cats.{{i}}">
+              {{selectOptions (cprFindConfigObj "activeEffectCategories") selected=change.category localize=true}}
+            </select>
+          </span>
+          {{!-- The next line displays the input for the 'key' field (built in _preparePartContext). --}}
+          {{change.keyInput}}
+        </div>
+        <div class="change-value force-submit">
+          <input type="text" name="changes.{{i}}.value" value="{{change.value}}"/>
+        </div>
+        <div class="change-mode force-submit">
+          {{#if (cprCompare change.category "===" "stat")}}
+            <select name="changes.{{i}}.mode" data-dtype="Number">
+              {{selectOptions (cprFindConfigObj "effectModifierModes") selected=change.changeMode localize=true}}
+            </select>
+          {{else}}
+            <input type="hidden" name="changes.{{i}}.mode" data-dtype="Number" value="2"/>
+            <span>
+              {{localize "CPR.effectSheet.modifiers.addSubtract"}}
+              <i class="fas fa-circle-question" data-tooltip="{{localize "CPR.effectSheet.info.deleteAndModesComing"}}"></i>
+            </span>
+          {{/if}}
+        </div>
+        <div class="situational">
+          <input name="isSituational"
+                 class="toggle-situational"
+                 type="checkbox"
+                 data-index="{{i}}"
+                 {{checked change.isSituational}}
+                 {{disabled (cprCompare change.category "===" "stat")}}/>
+        </div>
+        <div class="on-by-default">
+          <input name="onByDefault"
+                 class="toggle-on-by-default"
+                 type="checkbox"
+                 data-index="{{i}}"
+                 {{#unless change.isSituational}}disabled{{/unless}}
+                 {{checked change.onByDefault}}
+                 {{disabled (cprCompare change.category "===" "stat")}}/>
+        </div>
+        <div class="change-actions">
+          <a class="effect-change-control" data-action="deleteMod" data-index="{{i}}">
+            <i class="fas fa-trash-can"></i>
+          </a>
+        </div>
+      </li>
+    {{/each}}
+  </ol>
+  <div class="item-controls effect-controls">
+    <a class="effect-change-control"
+       data-action="addMod"
+       data-tooltip="{{localize "CPR.effectSheet.createModDesc"}}">
+      <i class="far fa-square-plus"></i> {{localize "CPR.effectSheet.createMod"}}
+    </a>
+  </div>
+</section>

@@ -1,0 +1,75 @@
+{
+  "version": "0.0.1",
+  "id": "cyberpunk-red-core",
+  "title": "Cyberpunk RED - CORE",
+  "description": "Implementation of the Cyberpunk RED, Core Rules, for FVTT",
+  "compatibility": {
+    "minimum": 12,
+    "verified": 12,
+    "maximum": 12
+  },
+  "authors": [
+    {
+      "name": "The Project Red Team",
+      "url": "https://gitlab.com/cyberpunk-red-team/fvtt-cyberpunk-red-core"
+    }
+  ],
+  "scripts": [],
+  "esmodules": [
+    "cpr.js"
+  ],
+  "styles": [
+    "css/main.css"
+  ],
+  "packFolders": [
+    {
+      "name": "Cyberpunk RED: Core",
+      "sorting": "m",
+      "packs": [
+        "core_ammo",
+        "core_armor",
+        "core_clothing",
+        "core_critical-injuries-body",
+        "core_critical-injuries-head",
+        "core_cyberware",
+        "core_drugs",
+        "core_gear",
+        "core_programs",
+        "core_roles",
+        "core_skills-languages",
+        "core_skills-local-expert",
+        "core_skills-martial-arts",
+        "core_skills-play-instrument",
+        "core_skills-science",
+        "core_upgrades",
+        "core_vehicles",
+        "core_weapons"
+      ]
+    },
+    {
+      "name": "Cyberpunk RED: Other",
+      "sorting": "m",
+      "packs": [
+        "other_macros",
+        "other_scenes",
+        "other_changelog"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "initiative": "1d10 + @stats.ref.value",
+  "grid": {
+    "distance": 2,
+    "units": "m"
+  },
+  "primaryTokenAttribute": "derivedStats.hp",
+  "secondaryTokenAttribute": null,
+  "background": "systems/cyberpunk-red-core/images/Foundry-Background.webp",
+  "license": "GPL v3"
+}

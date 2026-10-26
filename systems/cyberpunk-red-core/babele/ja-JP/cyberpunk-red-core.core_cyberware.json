@@ -1,0 +1,553 @@
+{
+  "label": "サイバーウェア",
+  "mapping": {
+    "dvTable": "system.dvTable"
+  },
+  "entries": {
+    "Amplified Hearing": {
+      "name": "聴覚強化",
+      "description": "<p>Provides +2 to perception checks that use hearing.</p>",
+      "dvTable": ""
+    },
+    "Anti-Dazzle": {
+      "name": "対閃光",
+      "description": "<p>Must be paired. Provides immunity to dazzling effects (like flashbangs).</p>",
+      "dvTable": ""
+    },
+    "Artificial Shoulder Mount": {
+      "name": "追加肩マウント",
+      "description": "<p>\n  Allows you to install an extra pair of cyberarms. Additional cyberarms are\n  sold &amp; installed separately.\n</p>\n<blockquote>\n  <p>\n    * Install your extra pair of foundational Cyberarms as normal, do not\n    install your extra cyberarms into this item.\n  </p>\n</blockquote>\n",
+      "dvTable": ""
+    },
+    "Audio Recorder": {
+      "name": "オーディオ・レコーダー",
+      "description": "<p>Records sound. Can link into a chip or agent.  </p>",
+      "dvTable": ""
+    },
+    "AudioVox": {
+      "name": "オーディオ・ヴォックス",
+      "description": "<p>Autotune synthesizer. Provides +2 to Acting and Play Instrument checks. </p>",
+      "dvTable": ""
+    },
+    "Big Knucks": {
+      "name": "ビッグ・ナック",
+      "description": "<p>Armored knuckles which function as a Melee Weapon. </p>",
+      "dvTable": ""
+    },
+    "Biomonitor": {
+      "name": "バイオモニタ",
+      "description": "<p>Provides an LED showing vitals readouts. Can be linked to your agent. </p>",
+      "dvTable": ""
+    },
+    "Braindance Recorder": {
+      "name": "ブレインダンス・レコーダー",
+      "description": "<p>Records memories for BD replay. Great for Medias.</p>",
+      "dvTable": ""
+    },
+    "Bug Detector": {
+      "name": "盗聴器検出器",
+      "description": "<p>Notifies of bugs or taps within 2m/yds.</p>",
+      "dvTable": ""
+    },
+    "Chemical Analyzer": {
+      "name": "化学物質分析器",
+      "description": "<p>Chipware. Test chemical make up of something.</p>",
+      "dvTable": ""
+    },
+    "Chemskin": {
+      "name": "ケムスキン",
+      "description": "<p>+2 Personal Grooming when using Techhair as well. Changes hue.</p>",
+      "dvTable": ""
+    },
+    "Chipware Socket": {
+      "name": "チップウェア・ソケット",
+      "description": "<p>Single socket for installation and removal of a piece of chipware. </p>",
+      "dvTable": ""
+    },
+    "Chyron": {
+      "name": "カイロン",
+      "description": "<p>Tiny screen in your eye. Provides picture-in-picture for those boring moments. </p>",
+      "dvTable": ""
+    },
+    "Color Shift": {
+      "name": "光彩変色",
+      "description": "<p>Allows you to shift eyes to an unlimited number of colors and patterns. </p>",
+      "dvTable": ""
+    },
+    "Contraceptive Implant": {
+      "name": "避妊インプラント",
+      "description": "<p>Prevents undesired pregnancy.</p>",
+      "dvTable": ""
+    },
+    "Cyberarm": {
+      "name": "サイバーアーム",
+      "description": "<p>A cybernetical replacement arm. Comes with a free hand. </p>",
+      "dvTable": ""
+    },
+    "Cyberaudio Suite": {
+      "name": "サイバー聴覚基本システム",
+      "description": "<p>A base interface for audio enhancements.</p>",
+      "dvTable": ""
+    },
+    "Cyberdeck (Hardwired)": {
+      "name": "サイバーデッキ",
+      "description": "<p>A built-in cyberdeck. Always available. </p>",
+      "dvTable": ""
+    },
+    "Cybereye": {
+      "name": "サイバーアイ",
+      "description": "<p>An artificial eye. Choose Kiroshi Optics!</p>",
+      "dvTable": ""
+    },
+    "Cyberleg": {
+      "name": "サイバーレッグ",
+      "description": "<p>A cybernetical replacement leg. Comes with a free foot. </p>",
+      "dvTable": ""
+    },
+    "Cybersnake": {
+      "name": "サイバースネーク",
+      "description": "<p>A throat snake which is a Very Heavy Melee weapon.</p>",
+      "dvTable": ""
+    },
+    "Dartgun": {
+      "name": "ダーツガン",
+      "description": "<p>A single shot weapon which can be concealed. </p>",
+      "dvTable": "DV Pistol"
+    },
+    "Difficult Skill Chip": {
+      "name": "スキルチップ(×2)",
+      "description": "<p>Chipware. Provides  a value of 3 to a specific (x2) skill while installed (unless the skill is already 3+). </p>",
+      "dvTable": ""
+    },
+    "EMP Threading": {
+      "name": "EMPスレッディング",
+      "description": "<p>PCB effect on skin.</p>",
+      "dvTable": ""
+    },
+    "Enhanced Antibodies": {
+      "name": "強化抗体",
+      "description": "<p>Doubles natural healing while resting. </p>",
+      "dvTable": ""
+    },
+    "Exposed Covering (Cyber Arm)": {
+      "name": "Exposed Covering (Cyber Arm)",
+      "description": "<p>\n  Your cybernetics are exposed, maybe you should purchase a covering for your\n  arm?\n</p>\n",
+      "dvTable": ""
+    },
+    "Exposed Covering (Cyber Leg)": {
+      "name": "Exposed Covering (Cyber Leg)",
+      "description": "<p>\n  Your cybernetics are exposed, maybe you should purchase a covering for your\n  arm?\n</p>\n",
+      "dvTable": ""
+    },
+    "Gills": {
+      "name": "えら",
+      "description": "<p>Allows for breathing underwater. </p>",
+      "dvTable": ""
+    },
+    "Grafted Muscle and Bone Lace": {
+      "name": "強化移植筋肉&骨膜編織",
+      "description": "<p>Increase Body by 2 (and related stats). Stacks. Max at 10 Body.</p>",
+      "dvTable": ""
+    },
+    "Grapple Hand": {
+      "name": "グラップル・ハンド",
+      "description": "<p>A retractable grappling hook embedded into your hand.</p>",
+      "dvTable": ""
+    },
+    "Grip Foot": {
+      "name": "グリップ・フット",
+      "description": "<p>Provides traction for climbing vertically. Must be paired. </p>",
+      "dvTable": ""
+    },
+    "Hardened Shielding (Cyber Arm)": {
+      "name": "ハードンド・シールディング(サイバーアーム)",
+      "description": "<p>The arm and installed options are not affected by EMP effects. </p>",
+      "dvTable": ""
+    },
+    "Hardened Shielding (Cyber Leg)": {
+      "name": "ハードンド・シールディング(サイバーレッグ)",
+      "description": "<p>The leg and installed options are not affected by EMP effects. </p>",
+      "dvTable": ""
+    },
+    "Hidden Holster": {
+      "name": "隠しホルスター",
+      "description": "<p>Holster that is hidden inside you.</p>",
+      "dvTable": ""
+    },
+    "Homing Tracer": {
+      "name": "追跡装置",
+      "description": "<p>Audio tracking of a tracer up to 1 mile. Replacements not included. </p>",
+      "dvTable": ""
+    },
+    "Image Enhance": {
+      "name": "画像強調",
+      "description": "<p>Must be paired. +2 Perception and Lip Reading and Conceal/Reveal Object when using sight.</p>",
+      "dvTable": ""
+    },
+    "Implanted Linear Frame β (Beta)": {
+      "name": "埋込型リニア・フレームβ(ベータ)",
+      "description": "<p>Increases your BODY stat to 14 (adjusting your HP and Wound Threshold and Death Save)</p>",
+      "dvTable": ""
+    },
+    "Implanted Linear Frame ∑ (Sigma)": {
+      "name": "埋込型リニア・フレームΣ(シグマ)",
+      "description": "<p>Increases your BODY stat to 12 (adjusting your HP and Wound Threshold and Death Save)</p>",
+      "dvTable": ""
+    },
+    "Independent Air Supply": {
+      "name": "独立空気補給",
+      "description": "<p>30 minutes of refillable breathable air. </p>",
+      "dvTable": ""
+    },
+    "Interface Plugs": {
+      "name": "インターフェイス・プラグ",
+      "description": "<p>Plugs in the wrist or head to allow you to connect to machines/systems hands-free. </p>",
+      "dvTable": ""
+    },
+    "Internal Agent": {
+      "name": "内蔵エージェント",
+      "description": "<p>Built in agent. Audio only but can be linked with other cybergear. </p>",
+      "dvTable": ""
+    },
+    "Jump Booster": {
+      "name": "ジャンプ・ブースター",
+      "description": "<p>Built-in hydraulics negates penalty for jumping. Must be paired. </p>",
+      "dvTable": ""
+    },
+    "Kerenzikov": {
+      "name": "ケレンジコフ",
+      "description": "<p>Speedware. Permanent +2 to Initiative. </p>",
+      "dvTable": ""
+    },
+    "Level Damper": {
+      "name": "レベル・ダンプナー",
+      "description": "<p>Provides immunity to deafness or sudden loud noises. </p>",
+      "dvTable": ""
+    },
+    "Light Tattoo": {
+      "name": "ライト・タトゥー",
+      "description": "<p>\n  Glowing tattoos. +2 to Wardrobe &amp; Style if you have at least three\n  installed.\n</p>\n",
+      "dvTable": ""
+    },
+    "Low Light/IR/UV": {
+      "name": "低光量/赤外線/紫外線",
+      "description": "<p>Must be paired. Ignore any vision penalties due to lighting or fog/smoke.</p>",
+      "dvTable": ""
+    },
+    "Meat Arm": {
+      "name": "生身の腕",
+      "description": "<p>A regular arm. This can support attachments like a Standard Hand or some weapons and tools as the only installed piece.</p>",
+      "dvTable": ""
+    },
+    "Meat Foot": {
+      "name": "Meat Foot",
+      "description": "<p>Looks like a normal foot for the most part.</p>\n",
+      "dvTable": ""
+    },
+    "Meat Hand": {
+      "name": "Meat Hand",
+      "description": "<p>Looks like a normal hand for the most part.</p>\n",
+      "dvTable": ""
+    },
+    "Meat Leg": {
+      "name": "生身の脚",
+      "description": "<p>A regular leg. This can support attachments like a Standard Foot or weapons such as the Talon Foot.</p>",
+      "dvTable": ""
+    },
+    "Medical Grade Cyberarm": {
+      "name": "医療用サイバーアーム",
+      "description": "<p>A medical grade cyberarm. Does not allow options to be installed.</p>",
+      "dvTable": ""
+    },
+    "Medical Grade Cyberleg": {
+      "name": "医療用サイバーレッグ",
+      "description": "<p>A medical grade cyberleg. Does not allow options to be installed.</p>",
+      "dvTable": ""
+    },
+    "Medscanner": {
+      "name": "メドスキャナー",
+      "description": "<p>Built-in medscanner which allows for quick assessment of injuries. Provides +2 to First Aid and Paramedic skill checks.</p>",
+      "dvTable": ""
+    },
+    "Memory Chip": {
+      "name": "メモリ・チップ",
+      "description": "<p>Chipware. Data Storage. Like a flash drive for your brain. Eject safely. </p>",
+      "dvTable": ""
+    },
+    "MicroOptics": {
+      "name": "顕微",
+      "description": "<p>Provides up to 400x magnification.</p>",
+      "dvTable": ""
+    },
+    "MicroVideo": {
+      "name": "マイクロ・ビデオ",
+      "description": "<p>An eye camera which can link into a chip or agent. Great for Medias. </p>",
+      "dvTable": ""
+    },
+    "Midnight Lady Sexual Implant": {
+      "name": "ミッドナイト・レディ™性的インプラント",
+      "description": "<p>Machine washable.</p>",
+      "dvTable": ""
+    },
+    "Mr. Studd Sexual Implant": {
+      "name": "Mr. スタッド™性的インプラント",
+      "description": "<p>Ready when you are.</p>",
+      "dvTable": ""
+    },
+    "MultiOptic Mount": {
+      "name": "多眼マウント",
+      "description": "<p>\n  Allows you to install up to 5 additional cybereyes. Additional cybereyes are\n  sold &amp; installed separately.\n</p>\n<blockquote>\n  <p>\n    * Install your extra foundational Cybereyes as normal, do not install your\n    extra cybereyes into this item.\n  </p>\n</blockquote>\n",
+      "dvTable": ""
+    },
+    "Nasal Filters": {
+      "name": "鼻孔フィルター",
+      "description": "<p>Provides immunity to inhalable gases or fumes. </p>",
+      "dvTable": ""
+    },
+    "Neural Link": {
+      "name": "ニューラル・リンク",
+      "description": "<p>Access to nervous system. </p>",
+      "dvTable": ""
+    },
+    "Olfactory Boost": {
+      "name": "嗅覚増強",
+      "description": "<p>Chipware. Allows scent tracking</p>",
+      "dvTable": ""
+    },
+    "Pain Editor": {
+      "name": "痛覚操作",
+      "description": "<p>Chipware. Removes Seriously Wounded penalties.</p>",
+      "dvTable": ""
+    },
+    "Plastic Covering (Cyber Arm)": {
+      "name": "プラスチック・カヴァーリング(サイバーアーム)",
+      "description": "<p>A type of plastic coating for your arm. </p>",
+      "dvTable": ""
+    },
+    "Plastic Covering (Cyber Leg)": {
+      "name": "プラスチック・カヴァーリング(サイバーレッグ)",
+      "description": "<p>A type of plastic coating for your leg. </p>",
+      "dvTable": ""
+    },
+    "Popup Grenade Launcher": {
+      "name": "ポップアップ・グレネード・ランチャー",
+      "description": "<p>\n  A concealable one-shot Grenade Launcher. Can't hold anything with this hand\n  while activated. Incompatible with all upgrades except\n  @UUID[Compendium.cyberpunk-red-core.core_upgrades.Item.BC8S1sdK0QGdyHNC]{Smartgun Link}.\n</p>\n",
+      "dvTable": "DV グレネードランチャー"
+    },
+    "Popup Melee Weapon": {
+      "name": "ポップアップ近接武器",
+      "description": "<p>\n  A concealable One-Handed Melee Weapon. Can't hold anything with this hand\n  while activated.\n</p>\n<blockquote>\n  <p>Configure settings to match the weapon being installed.</p>\n</blockquote>\n",
+      "dvTable": ""
+    },
+    "Popup Ranged Weapon": {
+      "name": "ポップアップ遠隔武器",
+      "description": "<p>\n  A concealable One-Handed Ranged Weapon. Can't hold anything with this hand\n  while activated.\n</p>\n<blockquote>\n  <p>Configure settings to match the weapon being installed.</p>\n</blockquote>\n",
+      "dvTable": "DV Pistol"
+    },
+    "Popup Shield": {
+      "name": "ポップアップ・シールド",
+      "description": "<p>\n  A foldable bulletproof shield that can be drawn or concealed easily. Can't\n  hold anything with this hand while activated.\n</p>\n<blockquote>\n  <p>\n    Add\n    @UUID[Compendium.cyberpunk-red-core.core_armor.Item.Bg1YEeF25HhfrzOG]{Bullet Proof Shield}\n    to inventory to manage shield HP.\n  </p>\n</blockquote>\n",
+      "dvTable": ""
+    },
+    "Quick Change Mount": {
+      "name": "クイック・チェンジ・マウント",
+      "description": "<p>Your cyberarm can be detached and re-attached (and swapped) using your open socket. Keep an arm for every occasion. </p>",
+      "dvTable": ""
+    },
+    "Radar Detector": {
+      "name": "レーダー探知機",
+      "description": "<p>Notifies of detected active radar within a 1 mile radius.</p>",
+      "dvTable": ""
+    },
+    "Radar/Sonar Implant": {
+      "name": "レーダー/ソナー・インプラント",
+      "description": "<p>Scans 50m/yds around you. Doesn't work through cover. </p>",
+      "dvTable": ""
+    },
+    "Radiation Detector": {
+      "name": "放射線感知器",
+      "description": "<p>Shows radiation with a blue glow. Maximum range 100m/yds.</p>",
+      "dvTable": ""
+    },
+    "Radio Communicator": {
+      "name": "無線通信機",
+      "description": "<p>Built in walkie-talkie. 1 mile range.</p>",
+      "dvTable": ""
+    },
+    "Radio Scanner/Music Player": {
+      "name": "通信スキャナー/音楽プレーヤー",
+      "description": "<p>Tune into CitiNet radio stations or play your locally saved music.</p>",
+      "dvTable": ""
+    },
+    "Realskinn Covering (Cyber Arm)": {
+      "name": "リアルスキン™・カヴァーリング(サイバーアーム)",
+      "description": "<p>An artifical skin type for your arm. </p>",
+      "dvTable": ""
+    },
+    "Realskinn Covering (Cyber Leg)": {
+      "name": "リアルスキン™・カヴァーリング(サイバーレッグ)",
+      "description": "<p>An artifical skin type for your leg. </p>",
+      "dvTable": ""
+    },
+    "Rippers": {
+      "name": "リパー",
+      "description": "<p>Very sharp fingernails which are a Medium Melee Weapon. Can be concealed. </p>",
+      "dvTable": ""
+    },
+    "Sandevistan": {
+      "name": "サンデヴィスタン",
+      "description": "<p>Speedware. +3 to Initiative for 1 min. 1hr cooldown.</p>",
+      "dvTable": ""
+    },
+    "Scrambler/Descrambler": {
+      "name": "スクランブラー/ディスクランブラー",
+      "description": "<p>Encodes and decodes transmissions.</p>",
+      "dvTable": ""
+    },
+    "Scratchers": {
+      "name": "スクラッチャー",
+      "description": "<p>Sharp fingernails which are a Light Melee Weapon. Can be concealed. </p>",
+      "dvTable": ""
+    },
+    "Sensor Array": {
+      "name": "センサー・アレイ",
+      "description": "<p>Allows you to install up to 5 additional cyberaudio options.</p>\n<blockquote>\n  <p>* Manually adjust your Cyberaudio Suite's number of slots to 8.</p>\n</blockquote>\n",
+      "dvTable": ""
+    },
+    "Shift Tacts": {
+      "name": "シフトタクト",
+      "description": "<p>Change eye color. Can be activated/deactivated at will. </p>",
+      "dvTable": ""
+    },
+    "Shoulder Cam": {
+      "name": "ショルダー・カム",
+      "description": "<p>A stowable camera that pops out of your shoulder. Can link with an agent or memory chip. </p>",
+      "dvTable": ""
+    },
+    "Skate Foot": {
+      "name": "スケート・フット",
+      "description": "<p>While running your movement is increased by 6m/yds. Must be paired. </p>",
+      "dvTable": ""
+    },
+    "Skill Chip": {
+      "name": "技能チップ",
+      "description": "<p>Chipware.</p>\n<p>Sets a Skill to 3 unless the skill is already &gt;3*.</p>\n<p><em>* Not supported, Skill must be modified manually.</em></p>\n",
+      "dvTable": ""
+    },
+    "Skin Weave": {
+      "name": "皮膚編繊",
+      "description": "<p>External Body Cyberware*. Head and Body Armor SP7 and recovers 1SP/day. Armor does not stack.</p>\n<p><em>* Cyberware Armor does not function as armor in the system, please add the \"Skin Weave\" item to the character/mook to track</em></p>",
+      "dvTable": ""
+    },
+    "Skinwatch": {
+      "name": "スキンウォッチ",
+      "description": "<p>An LED watch in your skin.</p>",
+      "dvTable": ""
+    },
+    "Slice 'N Dice": {
+      "name": "スライスン・ダイス",
+      "description": "<p>Monofilament wiring which is a Medium Melee Weapon. Can be concealed. </p>",
+      "dvTable": ""
+    },
+    "Standard Foot": {
+      "name": "スタンダート・フット",
+      "description": "<p>Looks like a normal foot for the most part. </p>",
+      "dvTable": ""
+    },
+    "Standard Hand": {
+      "name": "スタンダード・ハンド",
+      "description": "<p>Looks like a normal hand for the most part. </p>",
+      "dvTable": ""
+    },
+    "Subdermal Armor": {
+      "name": "皮下アーマー",
+      "description": "<p>External Body Cyberware*. Head and Body Armor SP11 and recovers 1SP/day. Armor does not stack.</p>\n<p><em>* Cyberware Armor does not function as armor in the system, please add the \"Subdermal Armor\" item to the character/mook to track</em></p>",
+      "dvTable": ""
+    },
+    "Subdermal Grip": {
+      "name": "皮下グリップ",
+      "description": "<p>Plating on your hand which allows you to utilise Smartguns. Requires a neural link. </p>",
+      "dvTable": ""
+    },
+    "Subdermal Pocket": {
+      "name": "皮下ポケット",
+      "description": "<p>2x4 inch underskin pocket</p>",
+      "dvTable": ""
+    },
+    "Superchrome® Covering (Cyber Arm)": {
+      "name": "スーパークローム®・カヴァーリング(サイバーアーム)",
+      "description": "<p>サイバー四肢を光沢ある金属でコーティングする。*</p>\n<p>\n  <em\n    >*Note: スーパークローム®・カヴァーリングの効果は累積しません。\n    効果タブで管理する必要があります。</em\n  >\n</p>\n",
+      "dvTable": ""
+    },
+    "Superchrome® Covering (Cyber Leg)": {
+      "name": "スーパークローム®・カヴァーリング(サイバーレッグ)",
+      "description": "<p>サイバー四肢を光沢ある金属でコーティングする。*</p>\n<p>\n  <em\n    >*Note: スーパークローム®・カヴァーリングの効果は累積しません。\n    効果タブで管理する必要があります。</em\n  >\n</p>\n",
+      "dvTable": ""
+    },
+    "Tactile Boost": {
+      "name": "触覚増強",
+      "description": "<p>Chipware. Can detect motion up to 20m/yd away through surfaces.</p>",
+      "dvTable": ""
+    },
+    "Talon Foot": {
+      "name": "タロン・フット",
+      "description": "<p>A retractable blade in your foot which is a Light Melee Weapon. </p>",
+      "dvTable": ""
+    },
+    "Targeting Scope": {
+      "name": "ターゲティング・スコープ",
+      "description": "<p>Provides a +1 to aimed shots.</p>",
+      "dvTable": ""
+    },
+    "Techhair": {
+      "name": "テックヘア",
+      "description": "<p>+2 Grooming with Chemskin. Color changing hair.</p>",
+      "dvTable": ""
+    },
+    "Techscanner": {
+      "name": "テクスキャナ",
+      "description": "<p>Contains a variety of built-in gadgets and tools. Provides a +2 bonus to multiple skill checks. </p>",
+      "dvTable": ""
+    },
+    "TeleOptics": {
+      "name": "望遠",
+      "description": "<p>Telescope in your eye up to 800m/yds. +1 to single shot/aimed shot if greater than 50m away.</p>",
+      "dvTable": ""
+    },
+    "Tool Hand": {
+      "name": "ツール・ハンド",
+      "description": "<p>Each finger in your hand has a different tool. Great for Techs!</p>",
+      "dvTable": ""
+    },
+    "Toxin Binders": {
+      "name": "毒素固定体",
+      "description": "<p>Provides +2 to Resist Torture/Drugs checks. </p>",
+      "dvTable": ""
+    },
+    "Vampyres": {
+      "name": "ヴァンパイア",
+      "description": "<p>Pointy Teeth which is a Light Melee weapon. Can use poison/toxins. </p>",
+      "dvTable": ""
+    },
+    "Virtuality": {
+      "name": "ヴァーチャリティ",
+      "description": "<p>Must be paired. Built-in virtuality goggles. </p>",
+      "dvTable": ""
+    },
+    "Voice Stress Analyzer": {
+      "name": "ボイス・ストレス・アナライザ",
+      "description": "<p>Provides +2 to Human Perception and Interrogation checks. Can activate a special lie-detecting mode. </p>",
+      "dvTable": ""
+    },
+    "Web Foot": {
+      "name": "ウェブ・フット",
+      "description": "<p>Webbing between your toes allows you to swim. Must be paired. </p>",
+      "dvTable": ""
+    },
+    "Wolvers": {
+      "name": "ウルヴァー",
+      "description": "<p>Claws which retract from your knuckles which is a Heavy Melee Weapon. Can be concealed. </p>",
+      "dvTable": ""
+    }
+  }
+}
